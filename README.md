@@ -294,6 +294,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [313. Super Ugly Number \
 ](https://leetcode.com/problems/super-ugly-number/)
   - Priority queue.
+* [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)
+  - Enumerate k smallest subset sums.
 * [373. Find K Pairs with Smallest Sums \
 ](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
   - K-way merge.
