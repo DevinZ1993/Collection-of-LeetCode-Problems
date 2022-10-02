@@ -470,6 +470,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [1092. Shortest Common Supersequence \
 ](https://leetcode.com/problems/shortest-common-supersequence/)
   - Longest common subsequence.
+* [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)
+  - Longest common subsequence.
 * [471. Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)
 * [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)
