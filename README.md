@@ -146,6 +146,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [310. Minimum Height Trees \
 ](https://leetcode.com/problems/minimum-height-trees)
   - Find the centroid of a tree.
+* [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value)
+  - Split a tree into equal sums.
 * [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)
 * [834. Sum of Distances in Tree \
 ](https://leetcode.com/problems/sum-of-distances-in-tree/)
