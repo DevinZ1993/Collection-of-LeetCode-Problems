@@ -341,6 +341,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [1703. Minimum Adjacent Swaps for K Consecutive Ones \
 ](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
   - Running sum of distances to the sliding window median.
+* [2448. Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)
+  - Weighted median.
 * [1554. Strings Differ by One Character \
 ](https://leetcode.com/problems/strings-differ-by-one-character/)
   - Trie or rolling hash.
