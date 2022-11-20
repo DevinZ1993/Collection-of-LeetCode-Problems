@@ -455,6 +455,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
 * [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)
 * [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)
+* [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
+  - DP + sliding window.
 * [1478. Allocate Mailboxes \
 ](https://leetcode.com/problems/allocate-mailboxes/)
   - The “Word Break” pattern.
