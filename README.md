@@ -507,6 +507,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)
 * [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)
+* [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)
 * [1820. Maximum Number of Accepted Invitations \
 ](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
   - Maximum flow.
