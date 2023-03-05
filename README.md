@@ -522,6 +522,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1735. Count Ways to Make Array With Product \
 ](https://leetcode.com/problems/count-ways-to-make-array-with-product/)
   - Sieve of Eratosthenes + combinations with repetitions.
+* [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
 * [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)
 * [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)
 * [1622. Fancy Sequence \
