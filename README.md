@@ -131,6 +131,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [854. K-Similar Strings \
 ](https://leetcode.com/problems/k-similar-strings/)
   - Pruning idea: consider a permutation as independent cycles and for each cycle choose only one transposition to start from.
+* [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)
 * [1136. Parallel Courses \
 ](https://leetcode.com/problems/parallel-courses/)
   - Topological sort + DP. Try not using recursion.
