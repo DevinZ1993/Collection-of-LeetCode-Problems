@@ -486,6 +486,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [664. Strange Printer](https://leetcode.com/problems/strange-printer/)
 * [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/)
 * [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
+* [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
 * [887. Super Egg Drop \
 ](https://leetcode.com/problems/super-egg-drop/)
