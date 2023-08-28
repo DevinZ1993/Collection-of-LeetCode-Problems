@@ -515,6 +515,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1820. Maximum Number of Accepted Invitations \
 ](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
   - Maximum flow.
+* [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
 * [1782. Count Pairs Of Nodes \
 ](https://leetcode.com/problems/count-pairs-of-nodes/)
   - Take advantage of the sparsity of the graph.
@@ -532,6 +533,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1622. Fancy Sequence \
 ](https://leetcode.com/problems/fancy-sequence/)
   - Modular multiplicative inverse.
+* [2835. Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
   
 ## License
 
