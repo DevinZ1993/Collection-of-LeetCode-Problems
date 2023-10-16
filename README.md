@@ -161,6 +161,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search + two pointers.
 * [2040. Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
   - Binary search + two pointers.
+* [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) [(solution)](src/719.cc)
+  - Binary search + sliding window.
 * [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
   - Sliding window.
 * [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
@@ -171,17 +173,17 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, three-way partition.
 * [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/)
   - Radix sort.
-* [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+* [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [(solution)](src/84.cc)
   - Monotonic stack.
 * [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/)
   - Monotonic stack.
 * [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
   - Surprisingly, this can be done in O(n) time using the monotonic stack.
-* [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)
+* [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) [(solution)](src/962.cc)
   - O(n) time, monotonic stack + two pointers.
 * [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
   - O(n) time, monotonic stack.
-* [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)
+* [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) [(solution)](src/316.cc)
   - O(n) time, monotonic stack.
 * [2030. Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)
   - O(n) time, monotonic stack.
@@ -189,7 +191,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, monotonic stack.
 * [321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)
   - Monotonic stack.
-* [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+* [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) [(solution)](src/239.cc)
   - O(n) time, monotonic queue.
 * [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
   - O(n) time, monotonic queue.
@@ -217,7 +219,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Priority queue.
 * [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)
   - Enumerate k smallest subset sums.
-* [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
+* [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) [(solution)](src/373.cc)
   - K-way merge.
 * [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)
   - K-way merge.
@@ -272,7 +274,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary indexed tree.
 * [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
   - Binary indexed tree.
-* [1674. Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)
+* [1674. Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) [(solution)](src/1674.cc)
   - Difference array.
 * [798. Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)
   - Difference array.
@@ -280,17 +282,17 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, bucketing.
 * [1714. Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/)
   - Sqrt decomposition.
-* [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
+* [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) [(solution)](src/214.cc)
   - Use this to test your KMP implementation.
 * [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
   - Stack.
 * [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)
   - One pass using a stack.
-* [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)
+* [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) [(solution)](src/255.cc)
   - One pass using a stack.
 * [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
   - One pass using a stack.
-* [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+* [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) [(solution)](src/1008.cc)
   - One pass using a stack.
 * [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
   - Try not using recursion.
@@ -327,13 +329,13 @@ Please also check out my past Medium stories on some of the interesting question
 * [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)
 * [920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)
 * [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
-* [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)
+* [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) [(solution)](src/730.cc)
 * [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)
 * [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
   - DP + sliding window.
 * [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)
   - The “Word Break” pattern.
-* [1147. Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/)
+* [1147. Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/) [(solution)](src/1147.cc)
 * [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
   - Longest increasing subsequence.
 * [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)
