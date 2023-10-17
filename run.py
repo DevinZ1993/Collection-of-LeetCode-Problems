@@ -18,7 +18,7 @@ if __name__ == '__main__':
             continue
         prob_num = match_num.groups(0)[0]
         print(prob_num)
-        new_lines += line[:-1] + ' [(solution)](src/' + prob_num + '.cc)\n'
+        new_lines += line[:-1] + ' [(C++)](src/' + prob_num + '.cc)\n'
     with open('README.md', 'w') as fout:
         fout.write(new_lines)
 
