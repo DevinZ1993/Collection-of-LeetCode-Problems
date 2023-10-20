@@ -119,7 +119,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Bitmask + cut in half.
 * [548. Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/)
   - Cut in half.
-* [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)
+* [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) [(C++)](src/1125.cc)
   - Knapsack + bitmask.
 * [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
   - DP + bitmask.
@@ -246,7 +246,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Use two std::multisets.
 * [1825. Finding MK Average](https://leetcode.com/problems/finding-mk-average/)
   - std::deque + std::multiset
-* [1703. Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
+* [1703. Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/) [(C++)](src/1703.cc)
   - Running sum of distances to the sliding window median.
 * [2448. Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/)
   - Weighted median.
@@ -302,19 +302,19 @@ Please also check out my past Medium stories on some of the interesting question
   - Try not using recursion.
 * [1896. Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)
   - Try not using recursion.
-* [956. Tallest Billboard](https://leetcode.com/problems/tallest-billboard/)
+* [956. Tallest Billboard](https://leetcode.com/problems/tallest-billboard/) [(C++)](src/956.cc)
   - Knapsack.
 * [2143. Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)
   - Knapsack.
 * [1787. Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/)
   - Knapsack.
-* [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)
+* [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) [(C++)](src/879.cc)
 * [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)
 * [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)
 * [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 * [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)
-* [265. Paint House II](https://leetcode.com/problems/paint-house-ii/)
-* [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
+* [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) [(C++)](src/265.cc)
+* [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [(C++)](src/1937.cc)
 * [1388. Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
   - This reduces to LC 213.
 * [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
@@ -357,7 +357,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
 * [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
-* [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
+* [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) [(C++)](src/887.cc)
   - This can be done in O(k * n) time.
 * [1140. Stone Game](https://leetcode.com/problems/stone-game-ii/)
   - Minimax.
