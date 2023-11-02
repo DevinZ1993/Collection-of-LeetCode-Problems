@@ -11,7 +11,7 @@ class WordFilter {
           key.append(prefix);
           key.push_back('$');
           key.append(words[i].substr(j));
-          indices[key] = i;
+          indices_[key] = i;
         }
       }
     }
@@ -23,15 +23,15 @@ class WordFilter {
     key.append(pref);
     key.push_back('$');
     key.append(suff);
-    auto it = indices.find(key);
-    if (it == indices.end()) {
+    auto it = indices_.find(key);
+    if (it == indices_.end()) {
       return -1;
     }
     return it->second;
   }
 
  private:
-  unordered_map<string, int> indices;
+  unordered_map<string, int> indices_;
 };
 
 /**

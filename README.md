@@ -28,31 +28,31 @@ Please also check out my past Medium stories on some of the interesting question
 * [158. Read N Characters Given read4 II — Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)
   - Implement a buffered reader.
 * [722. Remove Comments](https://leetcode.com/problems/remove-comments/)
-* [148. Sort List](https://leetcode.com/problems/sort-list/)
+* [148. Sort List](https://leetcode.com/problems/sort-list/) [(C++)](src/148.cc)
   - Merge sort, using fast and slow pointers to locate the middle of the list. 
-* [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+* [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) [(C++)](src/25.cc)
 * [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
   - Corner case: all values in the circular list are the same.
 * [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
   - Detect the cycle in a linked list.
-* [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
+* [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) [(C++)](src/341.cc)
   - Maintain a stack (of list iterators) for traversing the leaves of a tree.
-* [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
-* [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+* [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) [(C++)](src/654.cc)
+* [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) [(C++)](src/117.cc)
   - Level-order traversal of a binary tree.
-* [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+* [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) [(C++)](src/863.cc)
   - First need to find the path from the root to a given node.
   - Then enumerate common ancestors.
-* [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
+* [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) [(C++)](src/1382.cc)
   - O(n) time to convert a BST to a linked list (LC 426)
   - O(n) time to convert a linked list to a balanced BST (LC 109)
-* [272. Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
+* [272. Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) [(C++)](src/272.cc)
   - Next greater element in a binary search tree.
 * [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
 * [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)
 * [381. Insert Delete GetRandom O(1) — Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
   - Vector + hash index.
-* [432. All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
+* [432. All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) [(C++)](src/432.cc)
   - Linked list + hash index
 * [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
   - Linked list + hash index
