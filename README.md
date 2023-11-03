@@ -54,7 +54,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Vector + hash index.
 * [432. All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) [(C++)](src/432.cc)
   - Linked list + hash index
-* [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
+* [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) [(C++)](src/460.cc)
   - Linked list + hash index
 * [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
   - Stack + hash-based counter.
@@ -70,7 +70,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Requirement: O(n) time.
 * [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
   - Backtrack. Try not using recursion.
-* [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+* [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) [(C++)](src/37.cc)
   - Backtrack. Try not using recursion.
 * [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
   - Backtrack + trie.
@@ -104,7 +104,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Topological sort + DP. Try not using recursion.
 * [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
   - Eulerian path. Try not using recursion.
-* [505. The Maze II](https://leetcode.com/problems/the-maze-ii/)
+* [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) [(C++)](src/505.cc)
   - Dijkstra’s algorithm
 * [1928. Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)
   - No need to use Dijkstra. Use DP and exploit the sparsity of the graph.
@@ -232,7 +232,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Normalize and hash an island.
 * [1316. Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)
   - Rolling hash.
-* [715. Range Module](https://leetcode.com/problems/range-module/)
+* [715. Range Module](https://leetcode.com/problems/range-module/) [(C++)](src/715.cc)
   - Maintain a tree map for disjoint intervals.
 * [699. Falling Squares](https://leetcode.com/problems/falling-squares/)
   - Tree map.
