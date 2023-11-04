@@ -11,23 +11,23 @@ Please also check out my past Medium stories on some of the interesting question
 
 ---
 
-* [400. Nth Digit](https://leetcode.com/problems/nth-digit)
-* [440. K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)
-* [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
-* [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
-* [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-* [68. Text Justification](https://leetcode.com/problems/text-justification/)
+* [400. Nth Digit](https://leetcode.com/problems/nth-digit) [(C++)](src/400.cc)
+* [440. K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) [(C++)](src/440.cc)
+* [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) [(C++)](src/60.cc)
+* [31. Next Permutation](https://leetcode.com/problems/next-permutation/) [(C++)](src/31.cc)
+* [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) [(C++)](src/54.cc)
+* [68. Text Justification](https://leetcode.com/problems/text-justification/) [(C++)](src/68.cc)
   - Corner case: the last line and lines that only accommodate one word.
-* [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
+* [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) [(C++)](src/166.cc)
   - Detect a cycle.
-* [466. Count the Repetitions](https://leetcode.com/problems/count-the-repetitions/)
+* [466. Count the Repetitions](https://leetcode.com/problems/count-the-repetitions/) [(C++)](src/466.cc)
   - For each start position in s<sub>2</sub>, how many characters of s<sub>2</sub> (wrapping around) can we match by scanning s<sub>1</sub> from start to end.
-* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/)
-* [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)
-* [57. Insert Intervals](https://leetcode.com/problems/insert-interval/)
-* [158. Read N Characters Given read4 II — Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)
+* [2122. Recover the Original Array](https://leetcode.com/problems/recover-the-original-array/) [(C++)](src/2122.cc)
+* [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) [(C++)](src/43.cc)
+* [57. Insert Intervals](https://leetcode.com/problems/insert-interval/) [(C++)](src/57.cc)
+* [158. Read N Characters Given read4 II — Call Multiple Times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) [(C++)](src/158.cc)
   - Implement a buffered reader.
-* [722. Remove Comments](https://leetcode.com/problems/remove-comments/)
+* [722. Remove Comments](https://leetcode.com/problems/remove-comments/) [(C++)](src/722.cc)
 * [148. Sort List](https://leetcode.com/problems/sort-list/) [(C++)](src/148.cc)
   - Merge sort, using fast and slow pointers to locate the middle of the list. 
 * [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) [(C++)](src/25.cc)
@@ -44,8 +44,8 @@ Please also check out my past Medium stories on some of the interesting question
   - First need to find the path from the root to a given node.
   - Then enumerate common ancestors.
 * [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) [(C++)](src/1382.cc)
-  - O(n) time to convert a BST to a linked list (LC 426)
-  - O(n) time to convert a linked list to a balanced BST (LC 109)
+  - O(n) time to convert a BST to a linked list ([LC 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/))
+  - O(n) time to convert a linked list to a balanced BST ([LC 109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/))
 * [272. Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) [(C++)](src/272.cc)
   - Next greater element in a binary search tree.
 * [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
