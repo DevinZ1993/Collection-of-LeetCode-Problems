@@ -1,7 +1,7 @@
 class Solution {
  public:
   int countPalindromicSubsequences(string s) {
-    constexpr int mod = 1e9 + 7;
+    constexpr int mod = 1'000'000'007;
     const int n = s.size();
     vector<vector<array<int, 4>>> dp(n, vector<array<int, 4>>(n));
     for (int i = 0; i < n; ++i) {

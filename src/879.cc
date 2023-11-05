@@ -2,7 +2,7 @@ class Solution {
  public:
   int profitableSchemes(int n, int minProfit, vector<int>& group,
                         vector<int>& profit) {
-    constexpr int mod = 1e9 + 7;
+    constexpr int mod = 1'000'000'007;
     vector<vector<int>> dp(minProfit + 1, vector<int>(n + 1));
     dp[0][0] = 1;
     for (int index = 0; index < group.size(); ++index) {

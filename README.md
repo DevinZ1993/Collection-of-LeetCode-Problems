@@ -48,7 +48,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time to convert a linked list to a balanced BST ([LC 109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/))
 * [272. Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) [(C++)](src/272.cc)
   - Next greater element in a binary search tree.
-* [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
+* [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/) [(C++)](src/353.cc)
 * [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)
 * [381. Insert Delete GetRandom O(1) — Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
   - Vector + hash index.
@@ -125,7 +125,7 @@ Please also check out my past Medium stories on some of the interesting question
   - DP + bitmask.
 * [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
   - DP + bitmask
-* [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
+* [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) [(C++)](src/1723.cc)
   - DP + subset enumeration.
 * [1494. Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/) [(C++)](src/1494.cc)
   - DP+ subset enumeration.
@@ -135,7 +135,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Memoization with state compression.
 * [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
   - Binary search.
-* [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+* [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [(C++)](src/4.cc)
   - Divide and conquer. Take heed of the base case.
 * [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
   - Binary search.
@@ -149,7 +149,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search.
 * [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
   - Two pointers.
-* [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
+* [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [(C++)](src/581.cc)
   - O(n) time, O(1) space.
 * [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
   - Two pointers.
@@ -171,7 +171,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, three-way partition (q-sort).
 * [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
   - O(n) time, three-way partition.
-* [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/)
+* [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/) [(C++)](src/164.cc)
   - Radix sort.
 * [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [(C++)](src/84.cc)
   - Monotonic stack.
@@ -206,7 +206,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)
 * [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
 * [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
-* [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)
+* [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
 * [502. IPO](https://leetcode.com/problems/ipo/)
 * [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
 * [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
@@ -215,7 +215,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)
 * [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
   - Kruskal’s algorithm.
-* [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
+* [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) [(C++)](src/313.cc)
   - Priority queue.
 * [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)
   - Enumerate k smallest subset sums.
@@ -226,7 +226,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)
   - K-way merge.
 * [768. Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)
-* [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
+* [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) [(C++)](src/149.cc)
   - Normalize and hash a line.
 * [711. Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)
   - Normalize and hash an island.
@@ -240,7 +240,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Tree map.
 * [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
   - DP + tree map.
-* [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)
+* [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) [(C++)](src/218.cc)
   - Line sweep.
 * [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) [(C++)](src/480.cc)
   - Use two std::multisets.
@@ -265,7 +265,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)
   - Disjoint set + sieve of Eratosthenes.
 * [308. Range Sum Query 2D — Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
-  - Use this to test your binary indexed tree or segment tree.
+  - Use this to test your binary indexed tree.
 * [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
   - Binary indexed tree or merge sort.
 * [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)
@@ -274,6 +274,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary indexed tree.
 * [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
   - Binary indexed tree.
+* [2926. Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/) [(C++)](src/2926.cc)
+  - DP + segment tree.
 * [1674. Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) [(C++)](src/1674.cc)
   - Difference array.
 * [798. Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)
@@ -310,7 +312,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Knapsack.
 * [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) [(C++)](src/879.cc)
 * [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)
-* [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/)
+* [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/) [(C++)](src/1191.cc)
 * [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 * [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) [(C++)](src/265.cc)
@@ -348,7 +350,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Longest common subsequence.
 * [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)
   - Longest common subsequence.
-* [471. Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/)
+* [471. Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/) [(C++)](src/471.cc)
 * [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)
 * [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
@@ -361,7 +363,7 @@ Please also check out my past Medium stories on some of the interesting question
   - This can be done in O(k * n) time.
 * [1140. Stone Game](https://leetcode.com/problems/stone-game-ii/)
   - Minimax.
-* [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/)
+* [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) [(C++)](src/913.cc)
   - Minimax, taking account of a draw.
 * [843. Guess the Word](https://leetcode.com/problems/guess-the-word/)
   - An interesting interactive problem.
@@ -370,7 +372,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
 * [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
 * [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)
-* [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
+* [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)
 * [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)
 * [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)
@@ -393,6 +395,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/)
   - Modular multiplicative inverse.
 * [2835. Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
+* [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) [(C++)](src/587.cc)
+  - Graham scan for constructing convex hulls.
   
 ## License
 
