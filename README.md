@@ -50,7 +50,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Next greater element in a binary search tree.
 * [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/) [(C++)](src/353.cc)
 * [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)
-* [381. Insert Delete GetRandom O(1) — Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
+* [381. Insert Delete GetRandom O(1) — Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) [(C++)](src/381.cc)
   - Vector + hash index.
 * [432. All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) [(C++)](src/432.cc)
   - Linked list + hash index
@@ -72,13 +72,13 @@ Please also check out my past Medium stories on some of the interesting question
   - Backtrack. Try not using recursion.
 * [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) [(C++)](src/37.cc)
   - Backtrack. Try not using recursion.
-* [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+* [140. Word Break II](https://leetcode.com/problems/word-break-ii/) [(C++)](src/140.cc)
   - Backtrack + trie.
 * [425. Word Squares](https://leetcode.com/problems/word-squares/)
   - Backtrack + trie.
-* [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
+* [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) [(C++)](src/282.cc)
   - Backtrack, maintaining the partial result of an infix expression as you go.
-* [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
+* [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) [(C++)](src/301.cc)
 * [780. Reaching Points](https://leetcode.com/problems/reaching-points/)
   - Search backwards from (tx, ty) to (sx, sy).
 * [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
@@ -90,9 +90,9 @@ Please also check out my past Medium stories on some of the interesting question
   - DFS + trie.
 * [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) [(C++)](src/980.cc)
   - DFS + bitmask.
-* [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/)
-* [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
-* [499. The Maze III](https://leetcode.com/problems/the-maze-iii/)
+* [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) [(C++)](src/489.cc)
+* [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [(C++)](src/126.cc)
+* [499. The Maze III](https://leetcode.com/problems/the-maze-iii/) [(C++)](src/499.cc)
 * [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 * [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)
 * [691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)
@@ -167,7 +167,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Sliding window.
 * [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
   - Sliding window.
-* [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)
+* [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) [(C++)](src/324.cc)
   - O(n) time, three-way partition (q-sort).
 * [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
   - O(n) time, three-way partition.
@@ -211,7 +211,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
 * [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 * [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
-* [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/)
+* [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) [(C++)](src/857.cc)
 * [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)
 * [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
   - Kruskal’s algorithm.
@@ -236,9 +236,9 @@ Please also check out my past Medium stories on some of the interesting question
   - Maintain a tree map for disjoint intervals.
 * [699. Falling Squares](https://leetcode.com/problems/falling-squares/)
   - Tree map.
-* [391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)
+* [391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/) [(C++)](src/391.cc)
   - Tree map.
-* [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+* [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) [(C++)](src/363.cc)
   - DP + tree map.
 * [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) [(C++)](src/218.cc)
   - Line sweep.
@@ -361,7 +361,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
 * [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) [(C++)](src/887.cc)
   - This can be done in O(k * n) time.
-* [1140. Stone Game](https://leetcode.com/problems/stone-game-ii/)
+* [1140. Stone Game](https://leetcode.com/problems/stone-game-ii/) [(C++)](src/1140.cc)
   - Minimax.
 * [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) [(C++)](src/913.cc)
   - Minimax, taking account of a draw.
