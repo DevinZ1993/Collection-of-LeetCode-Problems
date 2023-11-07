@@ -49,7 +49,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [272. Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) [(C++)](src/272.cc)
   - Next greater element in a binary search tree.
 * [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/) [(C++)](src/353.cc)
-* [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/)
+* [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) [(C++)](src/588.cc)
 * [381. Insert Delete GetRandom O(1) — Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) [(C++)](src/381.cc)
   - Vector + hash index.
 * [432. All O(1) Data Structure](https://leetcode.com/problems/all-oone-data-structure/) [(C++)](src/432.cc)
@@ -100,7 +100,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
   - Pruning idea: consider a permutation as independent cycles and for each cycle choose only one transposition to start from.
 * [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)
-* [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/)
+* [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/) [(C++)](src/1136.cc)
   - Topological sort + DP. Try not using recursion.
 * [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
   - Eulerian path. Try not using recursion.
@@ -228,7 +228,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [768. Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)
 * [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) [(C++)](src/149.cc)
   - Normalize and hash a line.
-* [711. Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/)
+* [711. Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/) [(C++)](src/711.cc)
   - Normalize and hash an island.
 * [1316. Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)
   - Rolling hash.
@@ -266,7 +266,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Disjoint set + sieve of Eratosthenes.
 * [308. Range Sum Query 2D — Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
   - Use this to test your binary indexed tree.
-* [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
+* [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) [(C++)](src/327.cc)
   - Binary indexed tree or merge sort.
 * [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)
   - Binary indexed tree.
@@ -323,7 +323,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [656. Coin Path](https://leetcode.com/problems/coin-path/)
   - Lexicographically smallest path.
 * [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
-* [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+* [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) [(C++)](src/32.cc)
 * [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
 * [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)
 * [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)
