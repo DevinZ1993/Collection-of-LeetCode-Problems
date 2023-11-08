@@ -68,7 +68,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Digit DP.
 * [2031. Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)
   - Requirement: O(n) time.
-* [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+* [47. Permutations II](https://leetcode.com/problems/permutations-ii/) [(C++)](src/47.cc)
   - Backtrack. Try not using recursion.
 * [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) [(C++)](src/37.cc)
   - Backtrack. Try not using recursion.
@@ -133,7 +133,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Memoization with state compression.
 * [1659. Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/)
   - Memoization with state compression.
-* [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+* [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [(C++)](src/81.cc)
   - Binary search.
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [(C++)](src/4.cc)
   - Divide and conquer. Take heed of the base case.
@@ -163,7 +163,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search + two pointers.
 * [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) [(C++)](src/719.cc)
   - Binary search + sliding window.
-* [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+* [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) [(C++)](src/30.cc)
   - Sliding window.
 * [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
   - Sliding window.
@@ -319,7 +319,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [(C++)](src/1937.cc)
 * [1388. Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
   - This reduces to LC 213.
-* [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
+* [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/) [(C++)](src/174.cc)
 * [656. Coin Path](https://leetcode.com/problems/coin-path/)
   - Lexicographically smallest path.
 * [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
@@ -344,7 +344,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Longest increasing subsequence.
 * [2111. Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)
   - Longest increasing subsequence.
-* [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+* [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [(C++)](src/10.cc)
   - Longest common subsequence.
 * [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)
   - Longest common subsequence.
