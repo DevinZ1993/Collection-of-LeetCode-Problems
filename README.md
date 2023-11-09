@@ -33,7 +33,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) [(C++)](src/25.cc)
 * [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
   - Corner case: all values in the circular list are the same.
-* [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+* [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) [(C++)](src/287.cc)
   - Detect the cycle in a linked list.
 * [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) [(C++)](src/341.cc)
   - Maintain a stack (of list iterators) for traversing the leaves of a tree.
@@ -86,7 +86,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
 * [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
   - DFS + memoization.
-* [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+* [212. Word Search II](https://leetcode.com/problems/word-search-ii/) [(C++)](src/212.cc)
   - DFS + trie.
 * [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) [(C++)](src/980.cc)
   - DFS + bitmask.
@@ -280,7 +280,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Difference array.
 * [798. Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)
   - Difference array.
-* [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)
+* [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) [(C++)](src/220.cc)
   - O(n) time, bucketing.
 * [1714. Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/)
   - Sqrt decomposition.
@@ -313,7 +313,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) [(C++)](src/879.cc)
 * [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)
 * [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/) [(C++)](src/1191.cc)
-* [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+* [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [(C++)](src/188.cc)
 * [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) [(C++)](src/265.cc)
 * [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [(C++)](src/1937.cc)
@@ -383,7 +383,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
 * [1782. Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/)
   - Take advantage of the sparsity of the graph.
-* [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/)
+* [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) [(C++)](src/229.cc)
   - Boyer-Moore majority vote algorithm.
 * [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/)
 * [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)
