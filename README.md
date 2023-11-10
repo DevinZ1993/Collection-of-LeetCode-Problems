@@ -84,7 +84,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
   - Backward BFS.
 * [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
-* [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+* [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) [(C++)](src/329.cc)
   - DFS + memoization.
 * [212. Word Search II](https://leetcode.com/problems/word-search-ii/) [(C++)](src/212.cc)
   - DFS + trie.
@@ -108,7 +108,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Dijkstra’s algorithm
 * [1928. Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)
   - No need to use Dijkstra. Use DP and exploit the sparsity of the graph.
-* [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees)
+* [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) [(C++)](src/310.cc)
   - Find the centroid of a tree.
 * [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value)
   - Split a tree into equal sums.
@@ -189,7 +189,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, monotonic stack.
 * [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)
   - O(n) time, monotonic stack.
-* [321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)
+* [321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) [(C++)](src/321.cc)
   - Monotonic stack.
 * [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) [(C++)](src/239.cc)
   - O(n) time, monotonic queue.
@@ -264,7 +264,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Disjoint set + topological sort.
 * [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)
   - Disjoint set + sieve of Eratosthenes.
-* [308. Range Sum Query 2D — Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+* [308. Range Sum Query 2D — Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) [(C++)](src/308.cc)
   - Use this to test your binary indexed tree.
 * [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) [(C++)](src/327.cc)
   - Binary indexed tree or merge sort.
@@ -353,7 +353,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [471. Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/) [(C++)](src/471.cc)
 * [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)
-* [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+* [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) [(C++)](src/312.cc)
 * [664. Strange Printer](https://leetcode.com/problems/strange-printer/)
 * [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/)
 * [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
