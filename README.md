@@ -102,7 +102,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)
 * [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/) [(C++)](src/1136.cc)
   - Topological sort + DP. Try not using recursion.
-* [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+* [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) [(C++)](src/332.cc)
   - Eulerian path. Try not using recursion.
 * [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) [(C++)](src/505.cc)
   - Dijkstra’s algorithm
@@ -155,7 +155,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Two pointers.
 * [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
   - Two pointers.
-* [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+* [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [(C++)](src/378.cc)
   - Binary search + two pointers.
 * [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
   - Binary search + two pointers.
@@ -204,7 +204,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)
 * [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 * [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)
-* [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
+* [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) [(C++)](src/358.cc)
 * [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 * [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
 * [502. IPO](https://leetcode.com/problems/ipo/)
@@ -288,7 +288,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Use this to test your KMP implementation.
 * [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
   - Stack.
-* [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)
+* [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) [(C++)](src/331.cc)
   - One pass using a stack.
 * [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) [(C++)](src/255.cc)
   - One pass using a stack.
@@ -338,7 +338,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)
   - The “Word Break” pattern.
 * [1147. Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/) [(C++)](src/1147.cc)
-* [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
+* [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) [(C++)](src/354.cc)
   - Longest increasing subsequence.
 * [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)
   - Longest increasing subsequence.

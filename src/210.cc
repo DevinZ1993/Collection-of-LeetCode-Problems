@@ -1,9 +1,9 @@
 class Solution {
  public:
   vector<int> findOrder(int n, vector<vector<int>>& prerequisites) {
-    vector<vector<int>> adjLists(n);
+    vector<vector<int>> adj_lists(n);
     for (const auto& prerequisite : prerequisites) {
-      adjLists[prerequisite[1]].push_back(prerequisite[0]);
+      adj_lists[prerequisite[1]].push_back(prerequisite[0]);
     }
     vector<int> states(n);
     vector<int> stk;
@@ -27,7 +27,7 @@ class Solution {
         }
         ++states[i];
         stk.push_back(i);
-        for (int j : adjLists[i]) {
+        for (int j : adj_lists[i]) {
           if (states[j] == 0) {
             stk.push_back(j);
           } else if (states[j] == 1) {

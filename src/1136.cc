@@ -1,9 +1,9 @@
 class Solution {
  public:
   int minimumSemesters(int n, vector<vector<int>>& relations) {
-    unordered_map<int, vector<int>> adjLists(n);
+    unordered_map<int, vector<int>> adj_lists(n);
     for (const vector<int>& relation : relations) {
-      adjLists[relation[0] - 1].push_back(relation[1] - 1);
+      adj_lists[relation[0] - 1].push_back(relation[1] - 1);
     }
     vector<int> states(n);
     vector<int> order;
@@ -27,7 +27,7 @@ class Solution {
         }
         states[index] = 1;
         stk.emplace_back(index);
-        for (int next : adjLists[index]) {
+        for (int next : adj_lists[index]) {
           if (states[next] == 1) {
             return -1;
           }
@@ -40,7 +40,7 @@ class Solution {
     vector<int> dists(n);
     for (auto it = order.rbegin(); it != order.rend(); ++it) {
       const int index = *it;
-      for (int next : adjLists[index]) {
+      for (int next : adj_lists[index]) {
         dists[next] = max(dists[next], dists[index] + 1);
       }
     }
