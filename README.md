@@ -31,7 +31,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [148. Sort List](https://leetcode.com/problems/sort-list/) [(C++)](src/148.cc)
   - Merge sort, using fast and slow pointers to locate the middle of the list. 
 * [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) [(C++)](src/25.cc)
-* [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
+* [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) [(C++)](src/708.cc)
   - Corner case: all values in the circular list are the same.
 * [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) [(C++)](src/287.cc)
   - Detect the cycle in a linked list.
@@ -95,7 +95,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [499. The Maze III](https://leetcode.com/problems/the-maze-iii/) [(C++)](src/499.cc)
 * [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 * [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)
-* [691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)
+* [691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/) [(C++)](src/691.cc)
   - BFS, clamping the occurrence of each character.
 * [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
   - Pruning idea: consider a permutation as independent cycles and for each cycle choose only one transposition to start from.
@@ -121,7 +121,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Cut in half.
 * [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) [(C++)](src/1125.cc)
   - Knapsack + bitmask.
-* [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+* [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) [(C++)](src/698.cc)
   - DP + bitmask.
 * [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
   - DP + bitmask
@@ -139,7 +139,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Divide and conquer. Take heed of the base case.
 * [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [(C++)](src/410.cc)
   - Binary search.
-* [644. Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)
+* [644. Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/) [(C++)](src/644.cc)
   - Binary search, checking the running sum instead of the average.
 * [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)
   - Binary search.
@@ -205,7 +205,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 * [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)
 * [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) [(C++)](src/358.cc)
-* [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
+* [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [(C++)](src/659.cc)
 * [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
 * [502. IPO](https://leetcode.com/problems/ipo/) [(C++)](src/502.cc)
 * [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
@@ -234,7 +234,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Rolling hash.
 * [715. Range Module](https://leetcode.com/problems/range-module/) [(C++)](src/715.cc)
   - Maintain a tree map for disjoint intervals.
-* [699. Falling Squares](https://leetcode.com/problems/falling-squares/)
+* [699. Falling Squares](https://leetcode.com/problems/falling-squares/) [(C++)](src/699.cc)
   - Tree map.
 * [391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/) [(C++)](src/391.cc)
   - Tree map.
@@ -286,7 +286,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Sqrt decomposition.
 * [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) [(C++)](src/214.cc)
   - Use this to test your KMP implementation.
-* [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
+* [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) [(C++)](src/735.cc)
   - Stack.
 * [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) [(C++)](src/331.cc)
   - One pass using a stack.
@@ -314,13 +314,13 @@ Please also check out my past Medium stories on some of the interesting question
 * [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)
 * [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/) [(C++)](src/1191.cc)
 * [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [(C++)](src/188.cc)
-* [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)
+* [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) [(C++)](src/727.cc)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) [(C++)](src/265.cc)
 * [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [(C++)](src/1937.cc)
 * [1388. Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
   - This reduces to LC 213.
 * [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/) [(C++)](src/174.cc)
-* [656. Coin Path](https://leetcode.com/problems/coin-path/)
+* [656. Coin Path](https://leetcode.com/problems/coin-path/) [(C++)](src/656.cc)
   - Lexicographically smallest path.
 * [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
 * [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) [(C++)](src/32.cc)
@@ -354,7 +354,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)
 * [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) [(C++)](src/312.cc)
-* [664. Strange Printer](https://leetcode.com/problems/strange-printer/)
+* [664. Strange Printer](https://leetcode.com/problems/strange-printer/) [(C++)](src/664.cc)
 * [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) [(C++)](src/546.cc)
 * [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
 * [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
@@ -400,7 +400,7 @@ Please also check out my past Medium stories on some of the interesting question
   
 ## License
 
-    Copyright 2022 Devin Zuo
+    Copyright 2022-2023 Devin Zuo
 
     Creative Commons Zero v1.0 Universal
 
