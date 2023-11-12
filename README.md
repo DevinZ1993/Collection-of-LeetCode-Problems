@@ -58,13 +58,13 @@ Please also check out my past Medium stories on some of the interesting question
   - Linked list + hash index
 * [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
   - Stack + hash-based counter.
-* [394. Decode String](https://leetcode.com/problems/decode-string/)
+* [394. Decode String](https://leetcode.com/problems/decode-string/) [(C++)](src/394.cc)
   - Do not use recursion; use a stack instead.
 * [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)
   - The original order doesn’t matter.
 * [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
   - Digit DP.
-* [600. Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)
+* [600. Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) [(C++)](src/600.cc)
   - Digit DP.
 * [2031. Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)
   - Requirement: O(n) time.
@@ -74,7 +74,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Backtrack. Try not using recursion.
 * [140. Word Break II](https://leetcode.com/problems/word-break-ii/) [(C++)](src/140.cc)
   - Backtrack + trie.
-* [425. Word Squares](https://leetcode.com/problems/word-squares/)
+* [425. Word Squares](https://leetcode.com/problems/word-squares/) [(C++)](src/425.cc)
   - Backtrack + trie.
 * [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) [(C++)](src/282.cc)
   - Backtrack, maintaining the partial result of an infix expression as you go.
@@ -83,7 +83,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Search backwards from (tx, ty) to (sx, sy).
 * [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
   - Backward BFS.
-* [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
+* [403. Frog Jump](https://leetcode.com/problems/frog-jump/) [(C++)](src/403.cc)
 * [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) [(C++)](src/329.cc)
   - DFS + memoization.
 * [212. Word Search II](https://leetcode.com/problems/word-search-ii/) [(C++)](src/212.cc)
@@ -112,12 +112,12 @@ Please also check out my past Medium stories on some of the interesting question
   - Find the centroid of a tree.
 * [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value)
   - Split a tree into equal sums.
-* [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)
+* [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) [(C++)](src/407.cc)
 * [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
   - DP on a tree.
 * [805. Split Array with Same Average](https://leetcode.com/problems/split-array-with-same-average/) [(C++)](src/805.cc)
   - Bitmask + cut in half.
-* [548. Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/)
+* [548. Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/) [(C++)](src/548.cc)
   - Cut in half.
 * [1125. Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) [(C++)](src/1125.cc)
   - Knapsack + bitmask.
@@ -137,13 +137,13 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search.
 * [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [(C++)](src/4.cc)
   - Divide and conquer. Take heed of the base case.
-* [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
+* [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [(C++)](src/410.cc)
   - Binary search.
 * [644. Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/)
   - Binary search, checking the running sum instead of the average.
 * [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)
   - Binary search.
-* [483. Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)
+* [483. Smallest Good Base](https://leetcode.com/problems/smallest-good-base/) [(C++)](src/483.cc)
   - Binary search.
 * [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/)
   - Binary search.
@@ -207,10 +207,10 @@ Please also check out my past Medium stories on some of the interesting question
 * [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) [(C++)](src/358.cc)
 * [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 * [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
-* [502. IPO](https://leetcode.com/problems/ipo/)
+* [502. IPO](https://leetcode.com/problems/ipo/) [(C++)](src/502.cc)
 * [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
 * [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
-* [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
+* [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [(C++)](src/630.cc)
 * [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) [(C++)](src/857.cc)
 * [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)
 * [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
@@ -326,13 +326,13 @@ Please also check out my past Medium stories on some of the interesting question
 * [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) [(C++)](src/32.cc)
 * [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
 * [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)
-* [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)
+* [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) [(C++)](src/552.cc)
 * [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)
-* [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)
+* [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [(C++)](src/629.cc)
 * [920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)
 * [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
 * [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) [(C++)](src/730.cc)
-* [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)
+* [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) [(C++)](src/639.cc)
 * [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
   - DP + sliding window.
 * [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)
@@ -355,7 +355,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)
 * [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) [(C++)](src/312.cc)
 * [664. Strange Printer](https://leetcode.com/problems/strange-printer/)
-* [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/)
+* [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) [(C++)](src/546.cc)
 * [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
 * [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
