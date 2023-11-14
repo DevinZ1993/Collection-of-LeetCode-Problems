@@ -79,7 +79,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) [(C++)](src/282.cc)
   - Backtrack, maintaining the partial result of an infix expression as you go.
 * [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) [(C++)](src/301.cc)
-* [780. Reaching Points](https://leetcode.com/problems/reaching-points/)
+* [780. Reaching Points](https://leetcode.com/problems/reaching-points/) [(C++)](src/780.cc)
   - Search backwards from (tx, ty) to (sx, sy).
 * [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
   - Backward BFS.
@@ -157,7 +157,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Two pointers.
 * [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [(C++)](src/378.cc)
   - Binary search + two pointers.
-* [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
+* [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) [(C++)](src/786.cc)
   - Binary search + two pointers.
 * [2040. Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
   - Binary search + two pointers.
@@ -212,7 +212,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 * [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [(C++)](src/630.cc)
 * [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) [(C++)](src/857.cc)
-* [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/)
+* [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/) [(C++)](src/757.cc)
 * [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
   - Kruskal’s algorithm.
 * [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) [(C++)](src/313.cc)
@@ -225,7 +225,7 @@ Please also check out my past Medium stories on some of the interesting question
   - K-way merge.
 * [1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)
   - K-way merge.
-* [768. Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)
+* [768. Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) [(C++)](src/768.cc)
 * [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) [(C++)](src/149.cc)
   - Normalize and hash a line.
 * [711. Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/) [(C++)](src/711.cc)
@@ -322,7 +322,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/) [(C++)](src/174.cc)
 * [656. Coin Path](https://leetcode.com/problems/coin-path/) [(C++)](src/656.cc)
   - Lexicographically smallest path.
-* [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
+* [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) [(C++)](src/741.cc)
 * [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) [(C++)](src/32.cc)
 * [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
 * [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)
