@@ -93,11 +93,11 @@ Please also check out my past Medium stories on some of the interesting question
 * [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/) [(C++)](src/489.cc)
 * [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [(C++)](src/126.cc)
 * [499. The Maze III](https://leetcode.com/problems/the-maze-iii/) [(C++)](src/499.cc)
-* [815. Bus Routes](https://leetcode.com/problems/bus-routes/)
+* [815. Bus Routes](https://leetcode.com/problems/bus-routes/) [(C++)](src/815.cc)
 * [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)
 * [691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/) [(C++)](src/691.cc)
   - BFS, clamping the occurrence of each character.
-* [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/)
+* [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/) [(C++)](src/854.cc)
   - Pruning idea: consider a permutation as independent cycles and for each cycle choose only one transposition to start from.
 * [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)
 * [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/) [(C++)](src/1136.cc)
@@ -113,7 +113,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value)
   - Split a tree into equal sums.
 * [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) [(C++)](src/407.cc)
-* [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
+* [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) [(C++)](src/834.cc)
   - DP on a tree.
 * [805. Split Array with Same Average](https://leetcode.com/problems/split-array-with-same-average/) [(C++)](src/805.cc)
   - Bitmask + cut in half.
@@ -278,7 +278,7 @@ Please also check out my past Medium stories on some of the interesting question
   - DP + segment tree.
 * [1674. Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) [(C++)](src/1674.cc)
   - Difference array.
-* [798. Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/)
+* [798. Smallest Rotation with Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/) [(C++)](src/798.cc)
   - Difference array.
 * [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) [(C++)](src/220.cc)
   - O(n) time, bucketing.
@@ -365,7 +365,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Minimax.
 * [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) [(C++)](src/913.cc)
   - Minimax, taking account of a draw.
-* [843. Guess the Word](https://leetcode.com/problems/guess-the-word/)
+* [843. Guess the Word](https://leetcode.com/problems/guess-the-word/) [(C++)](src/843.cc)
   - An interesting interactive problem.
 * [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/)
   - Logical reasoning.
