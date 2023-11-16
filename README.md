@@ -56,13 +56,13 @@ Please also check out my past Medium stories on some of the interesting question
   - Linked list + hash index
 * [460. LFU Cache](https://leetcode.com/problems/lfu-cache/) [(C++)](src/460.cc)
   - Linked list + hash index
-* [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
+* [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) [(C++)](src/895.cc)
   - Stack + hash-based counter.
 * [394. Decode String](https://leetcode.com/problems/decode-string/) [(C++)](src/394.cc)
   - Do not use recursion; use a stack instead.
-* [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)
+* [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/) [(C++)](src/891.cc)
   - The original order doesn’t matter.
-* [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
+* [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) [(C++)](src/902.cc)
   - Digit DP.
 * [600. Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) [(C++)](src/600.cc)
   - Digit DP.
@@ -141,7 +141,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search.
 * [644. Maximum Average Subarray II](https://leetcode.com/problems/maximum-average-subarray-ii/) [(C++)](src/644.cc)
   - Binary search, checking the running sum instead of the average.
-* [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)
+* [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) [(C++)](src/878.cc)
   - Binary search.
 * [483. Smallest Good Base](https://leetcode.com/problems/smallest-good-base/) [(C++)](src/483.cc)
   - Binary search.
@@ -292,7 +292,7 @@ Please also check out my past Medium stories on some of the interesting question
   - One pass using a stack.
 * [255. Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) [(C++)](src/255.cc)
   - One pass using a stack.
-* [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+* [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [(C++)](src/889.cc)
   - One pass using a stack.
 * [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) [(C++)](src/1008.cc)
   - One pass using a stack.
