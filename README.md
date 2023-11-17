@@ -123,7 +123,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Knapsack + bitmask.
 * [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) [(C++)](src/698.cc)
   - DP + bitmask.
-* [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)
+* [943. Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) [(C++)](src/943.cc)
   - DP + bitmask
 * [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) [(C++)](src/1723.cc)
   - DP + subset enumeration.
@@ -327,10 +327,10 @@ Please also check out my past Medium stories on some of the interesting question
 * [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
 * [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)
 * [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) [(C++)](src/552.cc)
-* [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)
+* [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/) [(C++)](src/903.cc)
 * [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [(C++)](src/629.cc)
-* [920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/)
-* [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
+* [920. Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/) [(C++)](src/920.cc)
+* [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) [(C++)](src/940.cc)
 * [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) [(C++)](src/730.cc)
 * [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) [(C++)](src/639.cc)
 * [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
@@ -369,7 +369,7 @@ Please also check out my past Medium stories on some of the interesting question
   - An interesting interactive problem.
 * [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/)
   - Logical reasoning.
-* [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+* [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) [(C++)](src/921.cc)
 * [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
 * [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
