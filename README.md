@@ -165,7 +165,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search + sliding window.
 * [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) [(C++)](src/30.cc)
   - Sliding window.
-* [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+* [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) [(C++)](src/992.cc)
   - Sliding window.
 * [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) [(C++)](src/324.cc)
   - O(n) time, three-way partition (q-sort).
@@ -258,7 +258,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Trie.
 * [803. Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) [(C++)](src/803.cc)
   - Disjoint set.
-* [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+* [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [(C++)](src/947.cc)
   - Disjoint set.
 * [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)
   - Disjoint set + topological sort.
@@ -325,7 +325,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) [(C++)](src/741.cc)
 * [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) [(C++)](src/32.cc)
 * [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
-* [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/)
+* [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/) [(C++)](src/964.cc)
 * [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) [(C++)](src/552.cc)
 * [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/) [(C++)](src/903.cc)
 * [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [(C++)](src/629.cc)
@@ -346,7 +346,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Longest increasing subsequence.
 * [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [(C++)](src/10.cc)
   - Longest common subsequence.
-* [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)
+* [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) [(C++)](src/1092.cc)
   - Longest common subsequence.
 * [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)
   - Longest common subsequence.
@@ -356,7 +356,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) [(C++)](src/312.cc)
 * [664. Strange Printer](https://leetcode.com/problems/strange-printer/) [(C++)](src/664.cc)
 * [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) [(C++)](src/546.cc)
-* [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
+* [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) [(C++)](src/1000.cc)
 * [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
 * [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) [(C++)](src/887.cc)
