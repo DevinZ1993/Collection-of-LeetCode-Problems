@@ -106,6 +106,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Eulerian path. Try not using recursion.
 * [505. The Maze II](https://leetcode.com/problems/the-maze-ii/) [(C++)](src/505.cc)
   - Dijkstra’s algorithm
+* [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) [(C++)](src/1197.cc)
+  - A* search.
 * [1928. Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)
   - No need to use Dijkstra. Use DP and exploit the sparsity of the graph.
 * [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) [(C++)](src/310.cc)
@@ -375,7 +377,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)
 * [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)
-* [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)
+* [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) [(C++)](src/2571.cc)
 * [2790. Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)
   - Greedy
 * [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
