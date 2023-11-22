@@ -179,7 +179,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Monotonic stack.
 * [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/)
   - Monotonic stack.
-* [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+* [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) [(C++)](src/1130.cc)
   - Surprisingly, this can be done in O(n) time using the monotonic stack.
 * [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) [(C++)](src/962.cc)
   - O(n) time, monotonic stack + two pointers.
@@ -300,7 +300,7 @@ Please also check out my past Medium stories on some of the interesting question
   - One pass using a stack.
 * [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) [(C++)](src/772.cc)
   - Try not using recursion.
-* [1096. Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)
+* [1096. Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) [(C++)](src/1096.cc)
   - A variant of the calculator question.
 * [1597. Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
   - Try not using recursion.
@@ -352,13 +352,14 @@ Please also check out my past Medium stories on some of the interesting question
   - Longest common subsequence.
 * [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)
   - Longest common subsequence.
+* [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/) [(C++)](src/1216.cc)
+  - Longest common subsequence.
 * [471. Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length/) [(C++)](src/471.cc)
-* [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/)
-* [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/)
-* [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) [(C++)](src/312.cc)
-* [664. Strange Printer](https://leetcode.com/problems/strange-printer/) [(C++)](src/664.cc)
-* [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) [(C++)](src/546.cc)
 * [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) [(C++)](src/1000.cc)
+* [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/) [(C++)](src/312.cc)
+* [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) [(C++)](src/546.cc)
+* [664. Strange Printer](https://leetcode.com/problems/strange-printer/) [(C++)](src/664.cc)
+* [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/) [(C++)](src/1246.cc)
 * [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
 * [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) [(C++)](src/887.cc)
@@ -387,7 +388,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Take advantage of the sparsity of the graph.
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) [(C++)](src/229.cc)
   - Boyer-Moore majority vote algorithm.
-* [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/)
+* [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) [(C++)](src/1131.cc)
 * [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)
 * [1735. Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/)
   - Sieve of Eratosthenes + combinations with repetitions.
