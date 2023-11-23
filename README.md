@@ -232,7 +232,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Normalize and hash a line.
 * [711. Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/) [(C++)](src/711.cc)
   - Normalize and hash an island.
-* [1316. Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/)
+* [1316. Distinct Echo Substrings](https://leetcode.com/problems/distinct-echo-substrings/) [(C++)](src/1316.cc)
   - Rolling hash.
 * [715. Range Module](https://leetcode.com/problems/range-module/) [(C++)](src/715.cc)
   - Maintain a tree map for disjoint intervals.
@@ -374,7 +374,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Logical reasoning.
 * [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) [(C++)](src/921.cc)
 * [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
-* [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/)
+* [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) [(C++)](src/1247.cc)
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)
 * [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)
