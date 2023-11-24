@@ -171,7 +171,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Sliding window.
 * [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) [(C++)](src/324.cc)
   - O(n) time, three-way partition (q-sort).
-* [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
+* [1471. The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/) [(C++)](src/1471.cc)
   - O(n) time, three-way partition.
 * [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/) [(C++)](src/164.cc)
   - Radix sort.
@@ -204,18 +204,18 @@ Please also check out my past Medium stories on some of the interesting question
 * [1687. Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)
   - DP + monotonic queue.
 * [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)
-* [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+* [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) [(C++)](src/1353.cc)
 * [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)
 * [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) [(C++)](src/358.cc)
 * [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [(C++)](src/659.cc)
 * [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
 * [502. IPO](https://leetcode.com/problems/ipo/) [(C++)](src/502.cc)
 * [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
-* [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+* [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/) [(C++)](src/1326.cc)
 * [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [(C++)](src/630.cc)
 * [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) [(C++)](src/857.cc)
 * [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/) [(C++)](src/757.cc)
-* [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+* [1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) [(C++)](src/1489.cc)
   - Kruskal’s algorithm.
 * [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) [(C++)](src/313.cc)
   - Priority queue.
@@ -319,7 +319,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) [(C++)](src/727.cc)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) [(C++)](src/265.cc)
 * [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [(C++)](src/1937.cc)
-* [1388. Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/)
+* [1388. Pizza With 3n Slices](https://leetcode.com/problems/pizza-with-3n-slices/) [(C++)](src/1388.cc)
   - This reduces to LC 213.
 * [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/) [(C++)](src/174.cc)
 * [656. Coin Path](https://leetcode.com/problems/coin-path/) [(C++)](src/656.cc)
@@ -337,7 +337,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) [(C++)](src/639.cc)
 * [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
   - DP + sliding window.
-* [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/)
+* [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/) [(C++)](src/1478.cc)
   - The “Word Break” pattern.
 * [1147. Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/) [(C++)](src/1147.cc)
 * [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) [(C++)](src/354.cc)
@@ -389,7 +389,6 @@ Please also check out my past Medium stories on some of the interesting question
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) [(C++)](src/229.cc)
   - Boyer-Moore majority vote algorithm.
 * [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) [(C++)](src/1131.cc)
-* [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/)
 * [1735. Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/)
   - Sieve of Eratosthenes + combinations with repetitions.
 * [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
@@ -398,6 +397,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/)
   - Modular multiplicative inverse.
 * [2835. Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
+* [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) [(C++)](src/1401.cc)
+  - Geometry
 * [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) [(C++)](src/587.cc)
   - Graham scan for constructing convex hulls.
   
