@@ -149,13 +149,13 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search.
 * [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/)
   - Binary search.
-* [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+* [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) [(C++)](src/1574.cc)
   - Two pointers.
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [(C++)](src/581.cc)
   - O(n) time, O(1) space.
 * [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
   - Two pointers.
-* [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+* [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) [(C++)](src/1498.cc)
   - Two pointers.
 * [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [(C++)](src/378.cc)
   - Binary search + two pointers.
@@ -197,7 +197,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, monotonic queue.
 * [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) [(C++)](src/862.cc)
   - O(n) time, monotonic queue.
-* [1499. Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)
+* [1499. Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/) [(C++)](src/1499.cc)
   - Sliding window + monotonic queue.
 * [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) [(C++)](src/1438.cc)
   - Sliding window + monotonic queue.
@@ -223,7 +223,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Enumerate k smallest subset sums.
 * [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) [(C++)](src/373.cc)
   - K-way merge.
-* [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)
+* [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) [(C++)](src/1508.cc)
   - K-way merge.
 * [1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)
   - K-way merge.
@@ -274,7 +274,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary indexed tree.
 * [1649. Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)
   - Binary indexed tree.
-* [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+* [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) [(C++)](src/1505.cc)
   - Binary indexed tree.
 * [2926. Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/) [(C++)](src/2926.cc)
   - DP + segment tree.
