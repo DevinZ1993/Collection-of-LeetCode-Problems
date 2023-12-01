@@ -147,8 +147,6 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search.
 * [483. Smallest Good Base](https://leetcode.com/problems/smallest-good-base/) [(C++)](src/483.cc)
   - Binary search.
-* [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/)
-  - Binary search.
 * [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) [(C++)](src/1574.cc)
   - Two pointers.
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [(C++)](src/581.cc)
@@ -203,7 +201,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Sliding window + monotonic queue.
 * [1687. Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)
   - DP + monotonic queue.
-* [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)
+* [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) [(C++)](src/1834.cc)
 * [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) [(C++)](src/1353.cc)
 * [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)
 * [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) [(C++)](src/358.cc)
@@ -381,6 +379,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) [(C++)](src/2571.cc)
 * [2790. Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)
   - Greedy
+* [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) [(C++)](src/2333.cc)
+  - Greedy.
 * [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
   - Maximum flow.
 * [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
