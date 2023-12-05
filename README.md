@@ -300,7 +300,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Try not using recursion.
 * [1096. Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) [(C++)](src/1096.cc)
   - A variant of the calculator question.
-* [1597. Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
+* [1597. Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/) [(C++)](src/1597.cc)
   - Try not using recursion.
 * [1896. Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)
   - Try not using recursion.
@@ -384,7 +384,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
   - Maximum flow.
 * [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
-* [1782. Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/)
+* [1782. Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/) [(C++)](src/1782.cc)
   - Take advantage of the sparsity of the graph.
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) [(C++)](src/229.cc)
   - Boyer-Moore majority vote algorithm.
