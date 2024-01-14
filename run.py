@@ -29,4 +29,5 @@ if __name__ == '__main__':
         fout.write(new_lines)
     print(len(unsolved_probs), " problems unsolved")
     selected_prob = unsolved_probs[random.randrange(0, len(unsolved_probs))]
+    # selected_prob = min(map(lambda x: int(x), unsolved_probs))
     print("Try ", selected_prob)

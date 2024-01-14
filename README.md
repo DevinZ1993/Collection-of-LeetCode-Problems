@@ -286,6 +286,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Sqrt decomposition.
 * [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) [(C++)](src/214.cc)
   - Use this to test your KMP implementation.
+* [3008. Find Beautiful Indices in the Given Array II](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/) [(C++)](src/3008.cc)
+  - KMP algorithm.
 * [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) [(C++)](src/735.cc)
   - Stack.
 * [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) [(C++)](src/331.cc)
@@ -333,6 +335,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [940. Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) [(C++)](src/940.cc)
 * [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) [(C++)](src/730.cc)
 * [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) [(C++)](src/639.cc)
+* [3003. Maximize the Number of Partitions After Operations](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/) [(C++)](src/3003.cc)
 * [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
   - DP + sliding window.
 * [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/) [(C++)](src/1478.cc)
