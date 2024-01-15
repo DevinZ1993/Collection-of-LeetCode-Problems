@@ -371,7 +371,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Minimax, taking account of a draw.
 * [843. Guess the Word](https://leetcode.com/problems/guess-the-word/) [(C++)](src/843.cc)
   - An interesting interactive problem.
-* [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/)
+* [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/) [(C++)](src/1538.cc)
   - Logical reasoning.
 * [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) [(C++)](src/921.cc)
 * [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
