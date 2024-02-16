@@ -151,7 +151,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Two pointers.
 * [581. Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [(C++)](src/581.cc)
   - O(n) time, O(1) space.
-* [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
+* [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/) [(C++)](src/1793.cc)
   - Two pointers.
 * [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) [(C++)](src/1498.cc)
   - Two pointers.
@@ -208,7 +208,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [(C++)](src/659.cc)
 * [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
 * [502. IPO](https://leetcode.com/problems/ipo/) [(C++)](src/502.cc)
-* [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/)
+* [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) [(C++)](src/1665.cc)
 * [1326. Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/) [(C++)](src/1326.cc)
 * [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [(C++)](src/630.cc)
 * [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) [(C++)](src/857.cc)
@@ -217,13 +217,13 @@ Please also check out my past Medium stories on some of the interesting question
   - Kruskal’s algorithm.
 * [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) [(C++)](src/313.cc)
   - Priority queue.
-* [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/)
+* [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/) [(C++)](src/2386.cc)
   - Enumerate k smallest subset sums.
 * [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) [(C++)](src/373.cc)
   - K-way merge.
 * [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) [(C++)](src/1508.cc)
   - K-way merge.
-* [1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)
+* [1675. Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/) [(C++)](src/1675.cc)
   - K-way merge.
 * [768. Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) [(C++)](src/768.cc)
 * [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) [(C++)](src/149.cc)
@@ -313,7 +313,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1787. Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/)
   - Knapsack.
 * [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) [(C++)](src/879.cc)
-* [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)
+* [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/) [(C++)](src/1883.cc)
 * [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/) [(C++)](src/1191.cc)
 * [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [(C++)](src/188.cc)
 * [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) [(C++)](src/727.cc)
@@ -349,6 +349,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Longest increasing subsequence.
 * [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [(C++)](src/10.cc)
   - Longest common subsequence.
+* [2060. Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/) [(C++)](src/2060.cc)
+  - Memoization.
 * [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) [(C++)](src/1092.cc)
   - Longest common subsequence.
 * [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)
@@ -373,6 +375,8 @@ Please also check out my past Medium stories on some of the interesting question
   - An interesting interactive problem.
 * [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/) [(C++)](src/1538.cc)
   - Logical reasoning.
+* [3022. Minimize OR of Remaining Elements Using Operations](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/) [(C++)](src/3022.cc)
+  - Bit manipulation.
 * [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) [(C++)](src/921.cc)
 * [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
 * [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) [(C++)](src/1247.cc)
