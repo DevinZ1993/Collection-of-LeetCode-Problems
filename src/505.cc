@@ -2,48 +2,42 @@ class Solution {
  public:
   int shortestDistance(vector<vector<int>>& maze, vector<int>& start,
                        vector<int>& destination) {
-    if (start == destination) {
-      return 0;
-    }
-
     constexpr array<pair<int, int>, 4> kDirs = {
-        {{-1, 0}, {1, 0}, {0, -1}, {0, 1}}};
+        {{-1, 0}, {0, 1}, {1, 0}, {0, -1}}};
     const int m = maze.size();
     const int n = maze[0].size();
-    vector<vector<array<int, 4>>> dist_to_walls(m, vector<array<int, 4>>(n));
-    for (int j = 0; j < n; ++j) {
-      int last_wall = -1;
-      for (int i = 0; i < m; ++i) {
-        if (maze[i][j] == 0) {
-          dist_to_walls[i][j][0] = i - last_wall;
-        } else {
-          last_wall = i;
+    vector<vector<array<int, 4>>> dists_to_walls(m, vector<array<int, 4>>(n));
+    for (int i = 0; i < m; ++i) {
+      for (int j = 0; j < n; ++j) {
+        if (maze[i][j] == 1) {
+          continue;
         }
-      }
-      last_wall = m;
-      for (int i = m - 1; i >= 0; --i) {
-        if (maze[i][j] == 0) {
-          dist_to_walls[i][j][1] = last_wall - i;
+        if (i == 0) {
+          dists_to_walls[i][j][0] = 1;
         } else {
-          last_wall = i;
+          dists_to_walls[i][j][0] = dists_to_walls[i - 1][j][0] + 1;
+        }
+        if (j == 0) {
+          dists_to_walls[i][j][3] = 1;
+        } else {
+          dists_to_walls[i][j][3] = dists_to_walls[i][j - 1][3] + 1;
         }
       }
     }
-    for (int i = 0; i < m; ++i) {
-      int last_wall = -1;
-      for (int j = 0; j < n; ++j) {
-        if (maze[i][j] == 0) {
-          dist_to_walls[i][j][2] = j - last_wall;
-        } else {
-          last_wall = j;
-        }
-      }
-      last_wall = n;
+    for (int i = m - 1; i >= 0; --i) {
       for (int j = n - 1; j >= 0; --j) {
-        if (maze[i][j] == 0) {
-          dist_to_walls[i][j][3] = last_wall - j;
+        if (maze[i][j] == 1) {
+          continue;
+        }
+        if (i == m - 1) {
+          dists_to_walls[i][j][2] = 1;
         } else {
-          last_wall = j;
+          dists_to_walls[i][j][2] = dists_to_walls[i + 1][j][2] + 1;
+        }
+        if (j == n - 1) {
+          dists_to_walls[i][j][1] = 1;
+        } else {
+          dists_to_walls[i][j][1] = dists_to_walls[i][j + 1][1] + 1;
         }
       }
     }
@@ -53,20 +47,20 @@ class Solution {
     priority_queue<tuple<int, int, int>> q;
     q.emplace(0, start[0], start[1]);
     while (!q.empty()) {
-      auto [neg_dist, i, j] = q.top();
+      const auto [neg_dist, i, j] = q.top();
       q.pop();
-      if (-neg_dist > dists[i][j]) {
-        continue;
-      }
       if (i == destination[0] && j == destination[1]) {
         return dists[i][j];
       }
-      for (int dir_idx = 0; dir_idx < kDirs.size(); ++dir_idx) {
-        const int delta_dist = dist_to_walls[i][j][dir_idx] - 1;
-        const int next_i = i + kDirs[dir_idx].first * delta_dist;
-        const int next_j = j + kDirs[dir_idx].second * delta_dist;
-        if (dists[next_i][next_j] > dists[i][j] + delta_dist) {
-          dists[next_i][next_j] = dists[i][j] + delta_dist;
+      if (-neg_dist > dists[i][j]) {
+        continue;
+      }
+      for (int k = 0; k < kDirs.size(); ++k) {
+        const int dist = dists_to_walls[i][j][k] - 1;
+        const int next_i = i + dist * kDirs[k].first;
+        const int next_j = j + dist * kDirs[k].second;
+        if (dists[next_i][next_j] > dists[i][j] + dist) {
+          dists[next_i][next_j] = dists[i][j] + dist;
           q.emplace(-dists[next_i][next_j], next_i, next_j);
         }
       }

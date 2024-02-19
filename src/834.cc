@@ -1,51 +1,53 @@
 class Solution {
  public:
   vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {
-    vector<vector<int>> adj_lists(n);
+    vector<vector<int>> adjLists(n);
     for (const auto& edge : edges) {
-      adj_lists[edge[0]].push_back(edge[1]);
-      adj_lists[edge[1]].push_back(edge[0]);
+      adjLists[edge[0]].push_back(edge[1]);
+      adjLists[edge[1]].push_back(edge[0]);
     }
 
-    vector<int> dist_sums(n);
+    vector<int> sums(n);
     vector<int> counts(n, 1);
-    vector<tuple<int, int, int>> stk;
-    stk.emplace_back(0, -1, 0);
+    vector<int> parents(n, -1);
+    vector<pair<int, int>> stk;
+    stk.emplace_back(0, 0);
     while (!stk.empty()) {
-      const auto [index, prev_index, state] = stk.back();
+      const auto [index, state] = stk.back();
       stk.pop_back();
       if (state == 0) {
-        stk.emplace_back(index, prev_index, 1);
-        for (int next_index : adj_lists[index]) {
-          if (next_index == prev_index) {
-            continue;
+        stk.emplace_back(index, 1);
+        for (int next : adjLists[index]) {
+          if (next != parents[index]) {
+            parents[next] = index;
+            stk.emplace_back(next, 0);
           }
-          stk.emplace_back(next_index, index, 0);
         }
-        continue;
-      }
-      for (int next_index : adj_lists[index]) {
-        if (next_index == prev_index) {
-          continue;
+      } else {
+        for (int next : adjLists[index]) {
+          if (parents[next] == index) {
+            counts[index] += counts[next];
+            sums[index] += counts[next] + sums[next];
+          }
         }
-        counts[index] += counts[next_index];
-        dist_sums[index] += dist_sums[next_index] + counts[next_index];
       }
     }
-    stk.emplace_back(0, -1, 0);
+    stk.emplace_back(0, 0);
     while (!stk.empty()) {
-      const auto [index, prev_index, _] = stk.back();
+      const int index = stk.back().first;
       stk.pop_back();
-      for (int next_index : adj_lists[index]) {
-        if (next_index == prev_index) {
-          continue;
+      if (parents[index] >= 0) {
+        const int parent = parents[index];
+        const int parent_count = n - counts[index];
+        const int parent_sum = sums[parent] - counts[index] - sums[index];
+        sums[index] += parent_count + parent_sum;
+      }
+      for (int next : adjLists[index]) {
+        if (parents[next] == index) {
+          stk.emplace_back(next, 0);
         }
-        dist_sums[next_index] += dist_sums[index] -
-                                 (dist_sums[next_index] + counts[next_index]) +
-                                 (n - counts[next_index]);
-        stk.emplace_back(next_index, index, 0);
       }
     }
-    return dist_sums;
+    return sums;
   }
 };

@@ -1,24 +1,26 @@
 class Solution {
  public:
   int superEggDrop(int k, int n) {
-    vector<int> dp(n + 1);
-    for (int i = 1; i <= n; ++i) {
-      dp[i] = i;
+    vector<vector<int>> dp(k + 1, vector<int>(n + 1));
+    for (int nn = 1; nn <= n; ++nn) {
+      dp[1][nn] = nn;
     }
-    vector<int> last_dp(n + 1);
     for (int kk = 2; kk <= k; ++kk) {
-      swap(dp, last_dp);
-      fill(dp.begin() + 1, dp.end(), INT_MAX);
-      for (int i = 1, j = 1; i <= n; ++i) {
-        while (j + 1 <= i && dp[j] < last_dp[i - j - 1]) {
-          ++j;
+      for (int nn = 1, m = 1; nn <= n; ++nn) {
+        for (; m <= nn; ++m) {
+          if (dp[kk - 1][m - 1] >= dp[kk][nn - m]) {
+            break;
+          }
         }
-        dp[i] = 1 + last_dp[i - j];
-        if (j + 1 <= i) {
-          dp[i] = min(dp[i], 1 + dp[j]);
+        dp[kk][nn] = INT_MAX;
+        if (m <= nn) {
+          dp[kk][nn] = 1 + dp[kk - 1][m - 1];
+        }
+        if (m > 1) {
+          dp[kk][nn] = min(dp[kk][nn], 1 + dp[kk][nn - m + 1]);
         }
       }
     }
-    return dp[n];
+    return dp[k][n];
   }
 };

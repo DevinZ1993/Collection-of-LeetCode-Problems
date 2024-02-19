@@ -1,35 +1,38 @@
 class Solution {
  public:
   vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
-    if (n == 1) {
-      return {0};
+    if (n <= 2) {
+      return (n == 1 ? vector<int>{0} : vector<int>{0, 1});
     }
-    vector<unordered_set<int>> adj_lists(n);
+    vector<unordered_set<int>> adjLists(n);
     for (const auto& edge : edges) {
-      adj_lists[edge[0]].insert(edge[1]);
-      adj_lists[edge[1]].insert(edge[0]);
+      adjLists[edge[0]].insert(edge[1]);
+      adjLists[edge[1]].insert(edge[0]);
     }
+    unordered_set<int> visited;
     vector<int> leaves;
-    int cnt = n;
     for (int i = 0; i < n; ++i) {
-      if (adj_lists[i].size() == 1) {
+      if (adjLists[i].size() == 1) {
         leaves.push_back(i);
-        --cnt;
+        visited.insert(i);
       }
     }
-    vector<int> tmp;
-    while (cnt > 0) {
-      tmp.clear();
+    vector<int> nexts;
+    while (visited.size() < n) {
+      nexts.clear();
       for (int leaf : leaves) {
-        for (int next : adj_lists[leaf]) {
-          adj_lists[next].erase(leaf);
-          if (adj_lists[next].size() == 1) {
-            tmp.push_back(next);
-            --cnt;
+        for (int next : adjLists[leaf]) {
+          if (visited.count(next) > 0) {
+            continue;
+          }
+          adjLists[next].erase(leaf);
+          if (adjLists[next].size() <= 1) {
+            nexts.push_back(next);
+            visited.insert(next);
           }
         }
       }
-      swap(tmp, leaves);
+      swap(leaves, nexts);
     }
     return leaves;
   }

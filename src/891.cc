@@ -1,7 +1,7 @@
 class Solution {
  public:
   int sumSubseqWidths(vector<int>& nums) {
-    constexpr long long mod = 1e9 + 7;
+    constexpr long long mod = 1'000'000'007LL;
     const int n = nums.size();
     vector<long long> pows(n + 1);
     pows[0] = 1;

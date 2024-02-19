@@ -3,6 +3,8 @@ class RangeModule {
   RangeModule() {}
 
   void addRange(int left, int right) {
+    // Find the first interval whose right point is not less than `left`.
+    // If there's not one, create it.
     auto it = tree_.upper_bound(left);
     if (it == tree_.begin()) {
       it = tree_.emplace(left, right).first;
@@ -29,6 +31,8 @@ class RangeModule {
   }
 
   void removeRange(int left, int right) {
+    // Make `it` point at the first interval whose left point is not less than
+    // `left`, while attending to the previous intersecting interval if any.
     auto it = tree_.lower_bound(left);
     if (it != tree_.begin()) {
       const auto prev_it = prev(it);
