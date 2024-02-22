@@ -396,7 +396,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) [(C++)](src/229.cc)
   - Boyer-Moore majority vote algorithm.
 * [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) [(C++)](src/1131.cc)
-* [1735. Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/)
+* [1735. Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/) [(C++)](src/1735.cc)
   - Sieve of Eratosthenes + combinations with repetitions.
 * [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
 * [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)
