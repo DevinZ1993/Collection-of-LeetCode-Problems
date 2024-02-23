@@ -187,7 +187,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, monotonic stack.
 * [2030. Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)
   - O(n) time, monotonic stack.
-* [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)
+* [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) [(C++)](src/2289.cc)
   - O(n) time, monotonic stack.
 * [321. Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) [(C++)](src/321.cc)
   - Monotonic stack.
@@ -256,6 +256,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Trie.
 * [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) [(C++)](src/745.cc)
   - Trie.
+* [3045. Count Prefix and Suffix Pairs II](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/) [(C++)](src/3045.cc)
+  - Trie.
 * [803. Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) [(C++)](src/803.cc)
   - Disjoint set.
 * [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [(C++)](src/947.cc)
@@ -268,7 +270,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Use this to test your binary indexed tree.
 * [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) [(C++)](src/327.cc)
   - Binary indexed tree or merge sort.
-* [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)
+* [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/) [(C++)](src/2179.cc)
   - Binary indexed tree.
 * [1649. Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)
   - Binary indexed tree.
@@ -353,7 +355,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Memoization.
 * [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) [(C++)](src/1092.cc)
   - Longest common subsequence.
-* [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/)
+* [2430. Maximum Deletions on a String](https://leetcode.com/problems/maximum-deletions-on-a-string/) [(C++)](src/2430.cc)
   - Longest common subsequence.
 * [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/) [(C++)](src/1216.cc)
   - Longest common subsequence.
