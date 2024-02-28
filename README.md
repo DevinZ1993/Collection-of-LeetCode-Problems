@@ -185,7 +185,7 @@ Please also check out my past Medium stories on some of the interesting question
   - O(n) time, monotonic stack.
 * [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) [(C++)](src/316.cc)
   - O(n) time, monotonic stack.
-* [2030. Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)
+* [2030. Smallest K-Length Subsequence With Occurrences of a Letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) [(C++)](src/2030.cc)
   - O(n) time, monotonic stack.
 * [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) [(C++)](src/2289.cc)
   - O(n) time, monotonic stack.
@@ -284,7 +284,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Difference array.
 * [220. Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) [(C++)](src/220.cc)
   - O(n) time, bucketing.
-* [1714. Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/)
+* [1714. Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array/) [(C++)](src/1714.cc)
   - Sqrt decomposition.
 * [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) [(C++)](src/214.cc)
   - Use this to test your KMP implementation.
@@ -401,7 +401,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1735. Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/) [(C++)](src/1735.cc)
   - Sieve of Eratosthenes + combinations with repetitions.
 * [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
-* [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)
+* [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) [(C++)](src/2183.cc)
 * [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/)
   - Modular multiplicative inverse.
