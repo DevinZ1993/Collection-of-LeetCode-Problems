@@ -27,7 +27,8 @@ if __name__ == '__main__':
         new_lines += line[:-1] + ' [(C++)](src/' + prob_num + '.cc)\n'
     with open('README.md', 'w') as fout:
         fout.write(new_lines)
+    unsolved_probs.sort()
     print(len(unsolved_probs), " problems unsolved")
-    selected_prob = unsolved_probs[random.randrange(0, len(unsolved_probs))]
-    # selected_prob = min(map(lambda x: int(x), unsolved_probs))
-    print("Try ", selected_prob)
+    for prob in unsolved_probs:
+        print("Try ", prob)
+

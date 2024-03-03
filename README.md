@@ -112,7 +112,7 @@ Please also check out my past Medium stories on some of the interesting question
   - No need to use Dijkstra. Use DP and exploit the sparsity of the graph.
 * [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) [(C++)](src/310.cc)
   - Find the centroid of a tree.
-* [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value)
+* [2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value) [(C++)](src/2440.cc)
   - Split a tree into equal sums.
 * [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) [(C++)](src/407.cc)
 * [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) [(C++)](src/834.cc)
@@ -250,9 +250,9 @@ Please also check out my past Medium stories on some of the interesting question
   - Running sum of distances to the sliding window median.
 * [2448. Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) [(C++)](src/2448.cc)
   - Weighted median.
-* [1554. Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/)
+* [1554. Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character/) [(C++)](src/1554.cc)
   - Trie or rolling hash.
-* [1803. Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)
+* [1803. Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/) [(C++)](src/1803.cc)
   - Trie.
 * [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) [(C++)](src/745.cc)
   - Trie.
@@ -262,7 +262,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Disjoint set.
 * [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [(C++)](src/947.cc)
   - Disjoint set.
-* [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/)
+* [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/) [(C++)](src/1632.cc)
   - Disjoint set + topological sort.
 * [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)
   - Disjoint set + sieve of Eratosthenes.
@@ -338,7 +338,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) [(C++)](src/730.cc)
 * [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/) [(C++)](src/639.cc)
 * [3003. Maximize the Number of Partitions After Operations](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/) [(C++)](src/3003.cc)
-* [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/)
+* [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions/) [(C++)](src/2478.cc)
   - DP + sliding window.
 * [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes/) [(C++)](src/1478.cc)
   - The “Word Break” pattern.
@@ -402,7 +402,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Sieve of Eratosthenes + combinations with repetitions.
 * [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
 * [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) [(C++)](src/2183.cc)
-* [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/)
+* [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/) [(C++)](src/1819.cc)
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/)
   - Modular multiplicative inverse.
 * [2835. Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
