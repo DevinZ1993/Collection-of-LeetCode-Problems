@@ -81,7 +81,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) [(C++)](src/301.cc)
 * [780. Reaching Points](https://leetcode.com/problems/reaching-points/) [(C++)](src/780.cc)
   - Search backwards from (tx, ty) to (sx, sy).
-* [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
+* [1553. Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/) [(C++)](src/1553.cc)
   - Backward BFS.
 * [403. Frog Jump](https://leetcode.com/problems/frog-jump/) [(C++)](src/403.cc)
 * [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) [(C++)](src/329.cc)
@@ -133,7 +133,7 @@ Please also check out my past Medium stories on some of the interesting question
   - DP+ subset enumeration.
 * [2172. Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/)
   - Memoization with state compression.
-* [1659. Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/)
+* [1659. Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/) [(C++)](src/1659.cc)
   - Memoization with state compression.
 * [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [(C++)](src/81.cc)
   - Binary search.
@@ -199,7 +199,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Sliding window + monotonic queue.
 * [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) [(C++)](src/1438.cc)
   - Sliding window + monotonic queue.
-* [1687. Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)
+* [1687. Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/) [(C++)](src/1687.cc)
   - DP + monotonic queue.
 * [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) [(C++)](src/1834.cc)
 * [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) [(C++)](src/1353.cc)
@@ -272,7 +272,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary indexed tree or merge sort.
 * [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/) [(C++)](src/2179.cc)
   - Binary indexed tree.
-* [1649. Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)
+* [1649. Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/) [(C++)](src/1649.cc)
   - Binary indexed tree.
 * [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) [(C++)](src/1505.cc)
   - Binary indexed tree.
@@ -345,7 +345,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1147. Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/) [(C++)](src/1147.cc)
 * [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) [(C++)](src/354.cc)
   - Longest increasing subsequence.
-* [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)
+* [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/) [(C++)](src/1713.cc)
   - Longest increasing subsequence.
 * [2111. Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)
   - Longest increasing subsequence.
@@ -366,7 +366,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [664. Strange Printer](https://leetcode.com/problems/strange-printer/) [(C++)](src/664.cc)
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/) [(C++)](src/1246.cc)
 * [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
-* [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/)
+* [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) [(C++)](src/1531.cc)
 * [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) [(C++)](src/887.cc)
   - This can be done in O(k * n) time.
 * [1140. Stone Game](https://leetcode.com/problems/stone-game-ii/) [(C++)](src/1140.cc)
@@ -383,7 +383,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
 * [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) [(C++)](src/1247.cc)
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
-* [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)
+* [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) [(C++)](src/1702.cc)
 * [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)
 * [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) [(C++)](src/2571.cc)
 * [2790. Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)
@@ -403,7 +403,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
 * [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) [(C++)](src/2183.cc)
 * [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/) [(C++)](src/1819.cc)
-* [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/)
+* [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) [(C++)](src/1622.cc)
   - Modular multiplicative inverse.
 * [2835. Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
 * [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) [(C++)](src/1401.cc)
