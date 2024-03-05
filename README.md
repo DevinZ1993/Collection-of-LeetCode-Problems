@@ -203,7 +203,7 @@ Please also check out my past Medium stories on some of the interesting question
   - DP + monotonic queue.
 * [1834. Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) [(C++)](src/1834.cc)
 * [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) [(C++)](src/1353.cc)
-* [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/)
+* [1882. Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) [(C++)](src/1882.cc)
 * [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) [(C++)](src/358.cc)
 * [659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [(C++)](src/659.cc)
 * [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) [(C++)](src/1717.cc)
@@ -312,7 +312,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Knapsack.
 * [2143. Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)
   - Knapsack.
-* [1787. Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/)
+* [1787. Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/) [(C++)](src/1787.cc)
   - Knapsack.
 * [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/) [(C++)](src/879.cc)
 * [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/) [(C++)](src/1883.cc)
@@ -390,7 +390,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Greedy
 * [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) [(C++)](src/2333.cc)
   - Greedy.
-* [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
+* [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/) [(C++)](src/1820.cc)
   - Maximum flow.
 * [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
 * [1782. Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/) [(C++)](src/1782.cc)

@@ -1,28 +1,26 @@
 class Solution {
  public:
-  vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
-    priority_queue<pair<int, int>> free_servers;
-    for (int i = 0; i < servers.size(); ++i) {
-      free_servers.emplace(-servers[i], -i);
-    }
-    priority_queue<pair<int, int>> occupied_servers;
-    vector<int> results(tasks.size());
-    int time = 0;
-    for (int index = 0; index < tasks.size(); ++index) {
-      time = max(time, index);
-      if (free_servers.empty()) {
-        time = max(time, -occupied_servers.top().first);
+  int minSkips(vector<int>& dist, int speed, int hoursBefore) {
+    const int n = dist.size();
+    vector<long long> dp(n + 1, LLONG_MAX);
+    vector<long long> last_dp(n + 1, LLONG_MAX);
+    dp[0] = 0;
+    for (int i = 0; i < n; ++i) {
+      swap(dp, last_dp);
+      dp[i + 1] = last_dp[i] + dist[i];
+      for (int j = i; j >= 0; --j) {
+        dp[j] = (last_dp[j] + speed - 1) / speed * speed + dist[i];
+        if (j > 0) {
+          dp[j] = min(dp[j], last_dp[j - 1] + dist[i]);
+        }
       }
-      while (!occupied_servers.empty() &&
-             -occupied_servers.top().first <= time) {
-        int server_index = occupied_servers.top().second;
-        occupied_servers.pop();
-        free_servers.emplace(-servers[server_index], -server_index);
-      }
-      results[index] = -free_servers.top().second;
-      free_servers.pop();
-      occupied_servers.emplace(-time - tasks[index], results[index]);
     }
-    return results;
+    auto it = find_if(dp.begin(), dp.end(), [hoursBefore, speed](long long s) {
+      return s <= 1LL * hoursBefore * speed;
+    });
+    if (it == dp.end()) {
+      return -1;
+    }
+    return distance(dp.begin(), it);
   }
 };
