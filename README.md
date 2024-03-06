@@ -66,7 +66,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Digit DP.
 * [600. Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) [(C++)](src/600.cc)
   - Digit DP.
-* [2031. Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)
+* [2031. Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/) [(C++)](src/2031.cc)
   - Requirement: O(n) time.
 * [47. Permutations II](https://leetcode.com/problems/permutations-ii/) [(C++)](src/47.cc)
   - Backtrack. Try not using recursion.
@@ -108,7 +108,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Dijkstra’s algorithm
 * [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) [(C++)](src/1197.cc)
   - A* search.
-* [1928. Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)
+* [1928. Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/) [(C++)](src/1928.cc)
   - No need to use Dijkstra. Use DP and exploit the sparsity of the graph.
 * [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) [(C++)](src/310.cc)
   - Find the centroid of a tree.
@@ -159,7 +159,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary search + two pointers.
 * [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) [(C++)](src/786.cc)
   - Binary search + two pointers.
-* [2040. Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
+* [2040. Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/) [(C++)](src/2040.cc)
   - Binary search + two pointers.
 * [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) [(C++)](src/719.cc)
   - Binary search + sliding window.
@@ -175,7 +175,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Radix sort.
 * [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [(C++)](src/84.cc)
   - Monotonic stack.
-* [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/)
+* [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/) [(C++)](src/1950.cc)
   - Monotonic stack.
 * [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) [(C++)](src/1130.cc)
   - Surprisingly, this can be done in O(n) time using the monotonic stack.
@@ -264,7 +264,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Disjoint set.
 * [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/) [(C++)](src/1632.cc)
   - Disjoint set + topological sort.
-* [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/)
+* [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array/) [(C++)](src/1998.cc)
   - Disjoint set + sieve of Eratosthenes.
 * [308. Range Sum Query 2D — Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) [(C++)](src/308.cc)
   - Use this to test your binary indexed tree.
@@ -306,7 +306,7 @@ Please also check out my past Medium stories on some of the interesting question
   - A variant of the calculator question.
 * [1597. Build Binary Expression Tree From Infix Expression](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/) [(C++)](src/1597.cc)
   - Try not using recursion.
-* [1896. Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/)
+* [1896. Minimum Cost to Change the Final Value of Expression](https://leetcode.com/problems/minimum-cost-to-change-the-final-value-of-expression/) [(C++)](src/1896.cc)
   - Try not using recursion.
 * [956. Tallest Billboard](https://leetcode.com/problems/tallest-billboard/) [(C++)](src/956.cc)
   - Knapsack.
@@ -328,7 +328,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Lexicographically smallest path.
 * [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) [(C++)](src/741.cc)
 * [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) [(C++)](src/32.cc)
-* [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
+* [1997. First Day Where You Have Been in All the Rooms](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms/) [(C++)](src/1997.cc)
 * [964. Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number/) [(C++)](src/964.cc)
 * [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) [(C++)](src/552.cc)
 * [903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/) [(C++)](src/903.cc)
