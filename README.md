@@ -94,7 +94,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [(C++)](src/126.cc)
 * [499. The Maze III](https://leetcode.com/problems/the-maze-iii/) [(C++)](src/499.cc)
 * [815. Bus Routes](https://leetcode.com/problems/bus-routes/) [(C++)](src/815.cc)
-* [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)
+* [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) [(C++)](src/2092.cc)
 * [691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/) [(C++)](src/691.cc)
   - BFS, clamping the occurrence of each character.
 * [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/) [(C++)](src/854.cc)
@@ -131,7 +131,7 @@ Please also check out my past Medium stories on some of the interesting question
   - DP + subset enumeration.
 * [1494. Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/) [(C++)](src/1494.cc)
   - DP+ subset enumeration.
-* [2172. Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/)
+* [2172. Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/) [(C++)](src/2172.cc)
   - Memoization with state compression.
 * [1659. Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness/) [(C++)](src/1659.cc)
   - Memoization with state compression.
@@ -310,7 +310,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Try not using recursion.
 * [956. Tallest Billboard](https://leetcode.com/problems/tallest-billboard/) [(C++)](src/956.cc)
   - Knapsack.
-* [2143. Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/)
+* [2143. Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range/) [(C++)](src/2143.cc)
   - Knapsack.
 * [1787. Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/) [(C++)](src/1787.cc)
   - Knapsack.
@@ -347,7 +347,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Longest increasing subsequence.
 * [1713. Minimum Operations to Make a Subsequence](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/) [(C++)](src/1713.cc)
   - Longest increasing subsequence.
-* [2111. Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/)
+* [2111. Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/) [(C++)](src/2111.cc)
   - Longest increasing subsequence.
 * [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) [(C++)](src/10.cc)
   - Longest common subsequence.
@@ -380,7 +380,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [3022. Minimize OR of Remaining Elements Using Operations](https://leetcode.com/problems/minimize-or-of-remaining-elements-using-operations/) [(C++)](src/3022.cc)
   - Bit manipulation.
 * [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) [(C++)](src/921.cc)
-* [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
+* [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) [(C++)](src/2116.cc)
 * [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) [(C++)](src/1247.cc)
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) [(C++)](src/1702.cc)
