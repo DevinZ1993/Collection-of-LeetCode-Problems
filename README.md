@@ -384,7 +384,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) [(C++)](src/1247.cc)
 * [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [(C++)](src/777.cc)
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) [(C++)](src/1702.cc)
-* [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/)
+* [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/) [(C++)](src/2561.cc)
 * [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) [(C++)](src/2571.cc)
 * [2790. Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)
   - Greedy
@@ -400,7 +400,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1131. Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression/) [(C++)](src/1131.cc)
 * [1735. Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/) [(C++)](src/1735.cc)
   - Sieve of Eratosthenes + combinations with repetitions.
-* [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)
+* [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/) [(C++)](src/2584.cc)
 * [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/) [(C++)](src/2183.cc)
 * [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/) [(C++)](src/1819.cc)
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) [(C++)](src/1622.cc)
