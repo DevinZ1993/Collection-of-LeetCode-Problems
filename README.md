@@ -99,7 +99,8 @@ Please also check out my past Medium stories on some of the interesting question
   - BFS, clamping the occurrence of each character.
 * [854. K-Similar Strings](https://leetcode.com/problems/k-similar-strings/) [(C++)](src/854.cc)
   - Pruning idea: consider a permutation as independent cycles and for each cycle choose only one transposition to start from.
-* [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/)
+* [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations/) [(C++)](src/2612.cc)
+  - Separate the data structure for odd and even numbers.
 * [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/) [(C++)](src/1136.cc)
   - Topological sort + DP. Try not using recursion.
 * [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) [(C++)](src/332.cc)
@@ -386,8 +387,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [1702. Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/) [(C++)](src/1702.cc)
 * [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/) [(C++)](src/2561.cc)
 * [2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) [(C++)](src/2571.cc)
-* [2790. Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/)
-  - Greedy
+* [2790. Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/) [(C++)](src/2790.cc)
+  - Greedy. Doesn't need a binary search.
 * [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) [(C++)](src/2333.cc)
   - Greedy.
 * [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/) [(C++)](src/1820.cc)
