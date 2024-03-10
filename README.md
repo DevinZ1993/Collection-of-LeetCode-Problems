@@ -319,6 +319,7 @@ Please also check out my past Medium stories on some of the interesting question
 * [1883. Minimum Skips to Arrive at Meeting On Time](https://leetcode.com/problems/minimum-skips-to-arrive-at-meeting-on-time/) [(C++)](src/1883.cc)
 * [1191. K-Concatenation Maximum Sum](https://leetcode.com/problems/k-concatenation-maximum-sum/) [(C++)](src/1191.cc)
 * [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [(C++)](src/188.cc)
+* [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/) [(C++)](src/2809.cc)
 * [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) [(C++)](src/727.cc)
 * [265. Paint House II](https://leetcode.com/problems/paint-house-ii/) [(C++)](src/265.cc)
 * [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [(C++)](src/1937.cc)
@@ -366,7 +367,6 @@ Please also check out my past Medium stories on some of the interesting question
 * [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) [(C++)](src/546.cc)
 * [664. Strange Printer](https://leetcode.com/problems/strange-printer/) [(C++)](src/664.cc)
 * [1246. Palindrome Removal](https://leetcode.com/problems/palindrome-removal/) [(C++)](src/1246.cc)
-* [2809. Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)
 * [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) [(C++)](src/1531.cc)
 * [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) [(C++)](src/887.cc)
   - This can be done in O(k * n) time.
@@ -393,7 +393,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Greedy.
 * [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/) [(C++)](src/1820.cc)
   - Maximum flow.
-* [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/)
+* [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/) [(C++)](src/2836.cc)
+  - Binary jumping.
 * [1782. Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes/) [(C++)](src/1782.cc)
   - Take advantage of the sparsity of the graph.
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) [(C++)](src/229.cc)
@@ -406,7 +407,6 @@ Please also check out my past Medium stories on some of the interesting question
 * [1819. Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/) [(C++)](src/1819.cc)
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) [(C++)](src/1622.cc)
   - Modular multiplicative inverse.
-* [2835. Minimum Operations to Form Subsequence With Target Sum](https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/)
 * [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) [(C++)](src/1401.cc)
   - Geometry
 * [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) [(C++)](src/587.cc)
