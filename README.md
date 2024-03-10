@@ -58,6 +58,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Linked list + hash index
 * [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) [(C++)](src/895.cc)
   - Stack + hash-based counter.
+* [1206. Design Skiplist](https://leetcode.com/problems/design-skiplist/) [(C++)](src/1206.cc)
 * [394. Decode String](https://leetcode.com/problems/decode-string/) [(C++)](src/394.cc)
   - Do not use recursion; use a stack instead.
 * [891. Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/) [(C++)](src/891.cc)
