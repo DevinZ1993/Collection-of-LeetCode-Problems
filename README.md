@@ -244,6 +244,8 @@ Please also check out my past Medium stories on some of the interesting question
   - DP + tree map.
 * [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) [(C++)](src/218.cc)
   - Line sweep.
+* [3009. Maximum Number of Intersections on the Chart](https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart/description/) [(C++)](src/3009.cc)
+  - Line sweep, or difference array.
 * [480. Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) [(C++)](src/480.cc)
   - Use two std::multisets.
 * [1825. Finding MK Average](https://leetcode.com/problems/finding-mk-average/) [(C++)](src/1825.cc)
