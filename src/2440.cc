@@ -6,31 +6,31 @@ class Solution {
       sum += num;
     }
     const int n = nums.size();
-    vector<unordered_set<int>> adjLists(n);
+    vector<unordered_set<int>> adjlists(n);
     for (const auto& edge : edges) {
-      adjLists[edge[0]].insert(edge[1]);
-      adjLists[edge[1]].insert(edge[0]);
+      adjlists[edge[0]].insert(edge[1]);
+      adjlists[edge[1]].insert(edge[0]);
     }
     vector<pair<int, int>> index_pairs;
     index_pairs.reserve(n);
     deque<int> leaves;
     for (int i = 0; i < n; ++i) {
-      if (adjLists[i].size() == 1) {
+      if (adjlists[i].size() == 1) {
         leaves.push_back(i);
       }
     }
     while (!leaves.empty()) {
       const int index = leaves.front();
       leaves.pop_front();
-      const auto it = adjLists[index].begin();
-      if (it == adjLists[index].end()) {
+      const auto it = adjlists[index].begin();
+      if (it == adjlists[index].end()) {
         break;
       }
       const int parent_index = *it;
-      adjLists[index].erase(it);
-      adjLists[parent_index].erase(index);
+      adjlists[index].erase(it);
+      adjlists[parent_index].erase(index);
       index_pairs.emplace_back(index, parent_index);
-      if (adjLists[parent_index].size() == 1) {
+      if (adjlists[parent_index].size() == 1) {
         leaves.push_back(parent_index);
       }
     }

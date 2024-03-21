@@ -1,41 +1,33 @@
 class Solution {
  public:
   vector<string> fullJustify(vector<string>& words, int maxWidth) {
-    vector<string> lines;
+    vector<string> results;
     for (int i = 0; i < words.size();) {
-      int len = words[i].size();
+      int length = words[i].size();
       int j = i + 1;
-      while (j < words.size() && len + 1 + words[j].size() <= maxWidth) {
-        len += 1 + words[j].size();
-        ++j;
-      }
-      const int slots = j - i - 1;
-      const int extra = maxWidth - len;
-      string& line = lines.emplace_back();
-      line.reserve(maxWidth);
-      line.append(words[i]);
-      if (j == words.size()) {
-        for (int k = i + 1; k < j; ++k) {
-          line.push_back(' ');
-          line.append(words[k]);
+      for (; j < words.size(); ++j) {
+        if (length + 1 + words[j].size() > maxWidth) {
+          break;
         }
-      } else {
-        for (int k = i + 1; k < j; ++k) {
-          // Note that (a + b) / b is not necessarily equal to a / b + 1
-          // since a might be negative.
-          int spaces = (extra + i - k + slots) / slots + 1;
-          while (spaces > 0) {
-            line.push_back(' ');
-            --spaces;
-          }
-          line.append(words[k]);
-        }
+        length += 1 + words[j].size();
       }
-      while (line.size() < maxWidth) {
-        line.push_back(' ');
+      string& result = results.emplace_back();
+      result.reserve(maxWidth);
+      result.append(words[i]);
+      const int total_spaces = maxWidth - length + (j - i - 1);
+      for (int k = i + 1, kk = j - i - 2; k < j; ++k, --kk) {
+        int spaces =
+            (j == words.size() ? 1 : (total_spaces + kk) / (j - i - 1));
+        while (--spaces >= 0) {
+          result.push_back(' ');
+        }
+        result.append(words[k]);
+      }
+      while (result.size() < maxWidth) {
+        result.push_back(' ');
       }
       i = j;
     }
-    return lines;
+    return results;
   }
 };

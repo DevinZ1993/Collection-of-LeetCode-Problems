@@ -1,70 +1,46 @@
 class Solution {
  public:
-  struct Slice {
-    explicit Slice(const vector<int> *nums, int min_index, int max_index)
-        : nums(*nums), min_index(min_index), max_index(max_index) {}
-
-    int get(int index) const { return nums[min_index + index]; }
-
-    int size() const { return max_index - min_index + 1; }
-
-    auto begin() const { return nums.begin() + min_index; }
-
-    auto end() const { return nums.begin() + max_index + 1; }
-
-    const vector<int> &nums;
-    int min_index;
-    int max_index;
-  };
-
-  double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
+  double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     const int n1 = nums1.size();
     const int n2 = nums2.size();
-    const Slice slice1{&nums1, 0, min(n1 - 1, (n1 + n2) / 2)};
-    const Slice slice2{&nums2, 0, min(n2 - 1, (n1 + n2) / 2)};
-    if (n1 % 2 == n2 % 2) {
-      return 0.5 * (findMedian(slice1, slice2, (n1 + n2) / 2) +
-                    findMedian(slice1, slice2, (n1 + n2) / 2 + 1));
+    const int k = (n1 + n2) / 2;
+    if (n1 % 2 != n2 % 2) {
+      return solve(nums1, 0, n1 - 1, nums2, 0, n2 - 1, k + 1);
     }
-    return findMedian(slice1, slice2, (n1 + n2 + 1) / 2);
+    return 0.5 * (solve(nums1, 0, n1 - 1, nums2, 0, n2 - 1, k) +
+                  solve(nums1, 0, n1 - 1, nums2, 0, n2 - 1, k + 1));
   }
 
  private:
-  int findMedian(const Slice &slice1, const Slice &slice2, int k) {
-    const Slice *slice_ptr1 = &slice1;
-    const Slice *slice_ptr2 = &slice2;
-    if (slice_ptr1->size() < slice_ptr2->size()) {
-      swap(slice_ptr1, slice_ptr2);
+  int solve(const vector<int>& nums1, int min_index1, int max_index1,
+            const vector<int>& nums2, int min_index2, int max_index2, int k) {
+    max_index1 = min(max_index1, min_index1 + k - 1);
+    max_index2 = min(max_index2, min_index2 + k - 1);
+    if (max_index1 - min_index1 < max_index2 - min_index2) {
+      return solve(nums2, min_index2, max_index2, nums1, min_index1, max_index1,
+                   k);
     }
-    if (slice_ptr2->size() == 0) {
-      return slice_ptr1->get(k - 1);
+    if (min_index2 > max_index2) {
+      return nums1[min_index1 + k - 1];
     }
-    if (slice_ptr1->size() == 1) {
-      const int a = slice_ptr1->get(0);
-      const int b = slice_ptr2->get(0);
-      return k == 1 ? min(a, b) : max(a, b);
+    if (max_index1 == min_index1) {
+      return k == 1 ? min(nums1[min_index1], nums2[min_index2])
+                    : max(nums1[min_index1], nums2[min_index2]);
     }
-    const int index1 = (slice_ptr1->size() - 1) / 2;
-    const auto index2 = static_cast<int>(distance(
-        slice_ptr2->begin(), lower_bound(slice_ptr2->begin(), slice_ptr2->end(),
-                                         slice_ptr1->get(index1))));
-    if (index1 + index2 == k - 1) {
-      return slice_ptr1->get(index1);
+    const int mid_index1 = min_index1 + (max_index1 - min_index1) / 2;
+    const int mid_index2 =
+        distance(nums2.begin(), lower_bound(nums2.begin() + min_index2,
+                                            nums2.begin() + max_index2 + 1,
+                                            nums1[mid_index1]));
+    const int rank = mid_index1 - min_index1 + 1 + mid_index2 - min_index2;
+    if (rank == k) {
+      return nums1[mid_index1];
+    } else if (rank > k) {
+      return solve(nums1, min_index1, mid_index1 - 1, nums2, min_index2,
+                   mid_index2 - 1, k);
+    } else {
+      return solve(nums1, mid_index1 + 1, max_index1, nums2, mid_index2,
+                   max_index2, k - rank);
     }
-
-    if (index1 + index2 < k - 1) {
-      const Slice next_slice1{&slice_ptr1->nums,
-                              slice_ptr1->min_index + index1 + 1,
-                              slice_ptr1->max_index};
-      const Slice next_slice2{&slice_ptr2->nums, slice_ptr2->min_index + index2,
-                              slice_ptr2->max_index};
-      return findMedian(next_slice1, next_slice2, k - index1 - index2 - 1);
-    }
-
-    const Slice next_slice1{&slice_ptr1->nums, slice_ptr1->min_index,
-                            slice_ptr1->min_index + index1 - 1};
-    const Slice next_slice2{&slice_ptr2->nums, slice_ptr2->min_index,
-                            slice_ptr2->min_index + index2 - 1};
-    return findMedian(next_slice1, next_slice2, k);
   }
 };

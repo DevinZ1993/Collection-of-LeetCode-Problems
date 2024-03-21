@@ -258,7 +258,7 @@ Please also check out my past Medium stories on some of the interesting question
   - Trie or rolling hash.
 * [1803. Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/) [(C++)](src/1803.cc)
   - Trie.
-* [745. Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) [(C++)](src/745.cc)
+* [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) [(C++)](src/642.cc)
   - Trie.
 * [3045. Count Prefix and Suffix Pairs II](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii/) [(C++)](src/3045.cc)
   - Trie.
@@ -394,6 +394,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Greedy. Doesn't need a binary search.
 * [2333. Minimum Sum of Squared Difference](https://leetcode.com/problems/minimum-sum-of-squared-difference/) [(C++)](src/2333.cc)
   - Greedy.
+* [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/description/) [(C++)](src/1192.cc)
+  - Find all edges in cycles.
 * [1820. Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/) [(C++)](src/1820.cc)
   - Maximum flow.
 * [2836. Maximize Value of Function in a Ball Passing Game](https://leetcode.com/problems/maximize-value-of-function-in-a-ball-passing-game/) [(C++)](src/2836.cc)
@@ -411,6 +413,8 @@ Please also check out my past Medium stories on some of the interesting question
 * [1622. Fancy Sequence](https://leetcode.com/problems/fancy-sequence/) [(C++)](src/1622.cc)
   - Modular multiplicative inverse.
 * [1401. Circle and Rectangle Overlapping](https://leetcode.com/problems/circle-and-rectangle-overlapping/) [(C++)](src/1401.cc)
+  - Geometry
+* [1453. Maximum Number of Darts Inside of a Circular Dartboard](https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/description/) [(C++)](src/1453.cc)
   - Geometry
 * [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) [(C++)](src/587.cc)
   - Graham scan for constructing convex hulls.

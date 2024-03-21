@@ -1,27 +1,37 @@
 class Solution {
  public:
-  vector<vector<int>> getSkyline(vector<vector<int>> &buildings) {
-    map<int, vector<pair<int, int>>> events;
-    for (const auto &building : buildings) {
-      events[building[0]].emplace_back(building[2], 0);
-      events[building[1]].emplace_back(building[2], 1);
+  vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
+    const int n = buildings.size();
+    vector<tuple<int, int, int>> events;
+    events.reserve(n * 2);
+    for (int i = 0; i < n; ++i) {
+      events.emplace_back(buildings[i][0], i, 0);
+      events.emplace_back(buildings[i][1], i, 1);
     }
+    sort(events.begin(), events.end());
     vector<vector<int>> results;
-    multiset<int> heights;
-    for (const auto &[x, sub_events] : events) {
-      const int last_height = heights.empty() ? 0 : *heights.rbegin();
-      for (const auto &[height, state] : sub_events) {
-        if (state == 0) {
-          heights.insert(height);
-        } else {
-          auto it = heights.find(height);
-          assert(it != heights.end());
-          heights.erase(it);
+    multiset<int> tree;
+    tree.insert(0);
+    int last_height = 0;
+    for (int i = 0, j = 0; j <= events.size(); ++j) {
+      if (j == events.size() || get<0>(events[j]) > get<0>(events[i])) {
+        assert(!tree.empty());
+        int current_height = *tree.rbegin();
+        if (current_height != last_height) {
+          results.push_back(vector<int>{get<0>(events[i]), current_height});
+          last_height = current_height;
         }
+        i = j;
       }
-      const int height = heights.empty() ? 0 : *heights.rbegin();
-      if (height != last_height) {
-        results.push_back(vector<int>{x, height});
+      if (j < events.size()) {
+        const int height = buildings[get<1>(events[j])][2];
+        if (get<2>(events[j]) == 0) {
+          tree.insert(height);
+        } else {
+          auto it = tree.find(height);
+          assert(it != tree.end());
+          tree.erase(it);
+        }
       }
     }
     return results;

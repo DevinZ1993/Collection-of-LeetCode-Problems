@@ -1,25 +1,21 @@
 class Solution {
  public:
   int splitArray(vector<int>& nums, int k) {
-    long long sum = 0;
-    for (int num : nums) {
-      sum += num;
-    }
-    int min_val = max<int>(sum / k, *max_element(nums.begin(), nums.end()));
-    int max_val = static_cast<int>(min<long long>(INT_MAX, sum));
+    int min_val = *max_element(nums.begin(), nums.end());
+    int max_val = INT_MAX;
     while (min_val < max_val) {
       const int mid_val = min_val + (max_val - min_val) / 2;
-      int sum = mid_val;
-      int group = 0;
-      for (int num : nums) {
-        if (sum + num > mid_val) {
-          ++group;
-          sum = num;
+      int count = 1;
+      int sum = nums[0];
+      for (int i = 1; i < nums.size(); ++i) {
+        if (sum + nums[i] > mid_val) {
+          ++count;
+          sum = nums[i];
         } else {
-          sum += num;
+          sum += nums[i];
         }
       }
-      if (group <= k) {
+      if (count <= k) {
         max_val = mid_val;
       } else {
         min_val = mid_val + 1;

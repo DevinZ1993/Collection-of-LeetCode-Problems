@@ -27,7 +27,7 @@ class Solution {
         }
       }
     }
-    vector<vector<int>> adjLists(m * n);
+    vector<vector<int>> adjlists(m * n);
     vector<pair<int, int>> value_index_pairs;
     value_index_pairs.reserve(max(m, n));
     for (int i = 0; i < m; ++i) {
@@ -40,7 +40,7 @@ class Solution {
           unique(value_index_pairs.begin(), value_index_pairs.end()),
           value_index_pairs.end());
       for (int j = 1; j < value_index_pairs.size(); ++j) {
-        adjLists[value_index_pairs[j - 1].second].push_back(
+        adjlists[value_index_pairs[j - 1].second].push_back(
             value_index_pairs[j].second);
       }
     }
@@ -54,7 +54,7 @@ class Solution {
           unique(value_index_pairs.begin(), value_index_pairs.end()),
           value_index_pairs.end());
       for (int i = 1; i < value_index_pairs.size(); ++i) {
-        adjLists[value_index_pairs[i - 1].second].push_back(
+        adjlists[value_index_pairs[i - 1].second].push_back(
             value_index_pairs[i].second);
       }
     }
@@ -80,7 +80,7 @@ class Solution {
         }
         ++states[index];
         stk.push_back(index);
-        for (int next : adjLists[index]) {
+        for (int next : adjlists[index]) {
           if (states[next] == 0) {
             stk.push_back(next);
           }
@@ -91,7 +91,7 @@ class Solution {
     while (!order.empty()) {
       const int index = order.back();
       order.pop_back();
-      for (int next : adjLists[index]) {
+      for (int next : adjlists[index]) {
         auto &next_result = results[next / n][next % n];
         next_result = max(next_result, results[index / n][index % n] + 1);
       }

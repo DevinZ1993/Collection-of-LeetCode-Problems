@@ -1,10 +1,10 @@
 class Solution {
  public:
   vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {
-    vector<vector<int>> adjLists(n);
+    vector<vector<int>> adjlists(n);
     for (const auto& edge : edges) {
-      adjLists[edge[0]].push_back(edge[1]);
-      adjLists[edge[1]].push_back(edge[0]);
+      adjlists[edge[0]].push_back(edge[1]);
+      adjlists[edge[1]].push_back(edge[0]);
     }
 
     vector<int> sums(n);
@@ -17,14 +17,14 @@ class Solution {
       stk.pop_back();
       if (state == 0) {
         stk.emplace_back(index, 1);
-        for (int next : adjLists[index]) {
+        for (int next : adjlists[index]) {
           if (next != parents[index]) {
             parents[next] = index;
             stk.emplace_back(next, 0);
           }
         }
       } else {
-        for (int next : adjLists[index]) {
+        for (int next : adjlists[index]) {
           if (parents[next] == index) {
             counts[index] += counts[next];
             sums[index] += counts[next] + sums[next];
@@ -42,7 +42,7 @@ class Solution {
         const int parent_sum = sums[parent] - counts[index] - sums[index];
         sums[index] += parent_count + parent_sum;
       }
-      for (int next : adjLists[index]) {
+      for (int next : adjlists[index]) {
         if (parents[next] == index) {
           stk.emplace_back(next, 0);
         }

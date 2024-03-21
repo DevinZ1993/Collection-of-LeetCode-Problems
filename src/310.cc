@@ -4,15 +4,15 @@ class Solution {
     if (n <= 2) {
       return (n == 1 ? vector<int>{0} : vector<int>{0, 1});
     }
-    vector<unordered_set<int>> adjLists(n);
+    vector<unordered_set<int>> adjlists(n);
     for (const auto& edge : edges) {
-      adjLists[edge[0]].insert(edge[1]);
-      adjLists[edge[1]].insert(edge[0]);
+      adjlists[edge[0]].insert(edge[1]);
+      adjlists[edge[1]].insert(edge[0]);
     }
     unordered_set<int> visited;
     vector<int> leaves;
     for (int i = 0; i < n; ++i) {
-      if (adjLists[i].size() == 1) {
+      if (adjlists[i].size() == 1) {
         leaves.push_back(i);
         visited.insert(i);
       }
@@ -21,12 +21,12 @@ class Solution {
     while (visited.size() < n) {
       nexts.clear();
       for (int leaf : leaves) {
-        for (int next : adjLists[leaf]) {
+        for (int next : adjlists[leaf]) {
           if (visited.count(next) > 0) {
             continue;
           }
-          adjLists[next].erase(leaf);
-          if (adjLists[next].size() <= 1) {
+          adjlists[next].erase(leaf);
+          if (adjlists[next].size() <= 1) {
             nexts.push_back(next);
             visited.insert(next);
           }
