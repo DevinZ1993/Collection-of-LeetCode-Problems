@@ -280,6 +280,8 @@ Please also check out my past Medium stories on some of the interesting question
   - Binary indexed tree.
 * [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/) [(C++)](src/1505.cc)
   - Binary indexed tree.
+* [3165. Maximum Sum of Subsequence With Non-adjacent Elements](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements/description/) [(C++)](src/3165.cc)
+  - Segment Tree
 * [2926. Maximum Balanced Subsequence Sum](https://leetcode.com/problems/maximum-balanced-subsequence-sum/) [(C++)](src/2926.cc)
   - DP + segment tree.
 * [1674. Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/) [(C++)](src/1674.cc)
