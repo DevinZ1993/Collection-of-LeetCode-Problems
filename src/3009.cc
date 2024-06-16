@@ -1,3 +1,39 @@
+/** Line sweep: */
+class Solution {
+ public:
+  int maxIntersectionCount(vector<int>& y) {
+    const int n = y.size();
+    map<int, vector<int>> tree;
+    for (int i = 0; i < n; ++i) {
+      tree[y[i]].push_back(i);
+    }
+    int lines = 0;
+    int result = 0;
+    for (auto it = tree.begin(); it != tree.end(); ++it) {
+      for (int index : it->second) {
+        if (index > 0 && y[index - 1] < y[index]) {
+          --lines;
+        }
+        if (index + 1 < n && y[index + 1] < y[index]) {
+          --lines;
+        }
+      }
+      result = max<int>(result, it->second.size() + lines);
+      for (int index : it->second) {
+        if (index > 0 && y[index - 1] > y[index]) {
+          ++lines;
+        }
+        if (index + 1 < n && y[index + 1] > y[index]) {
+          ++lines;
+        }
+      }
+      result = max(result, lines);
+    }
+    return result;
+  }
+};
+
+/** Difference array: */
 class Solution {
  public:
   int maxIntersectionCount(vector<int>& y) {

@@ -1,48 +1,43 @@
 class Solution {
  public:
   vector<int> beautifulIndices(string s, string a, string b, int k) {
-    vector<int> i_indices = findIndices(s, a);
-    vector<int> j_indices = findIndices(s, b);
+    vector<int> a_indices = getIndices(s, a);
+    vector<int> b_indices = getIndices(s, b);
     vector<int> results;
-    for (int i = 0, min_j = 0, max_j = 0; i < i_indices.size(); ++i) {
-      while (min_j < j_indices.size() && j_indices[min_j] + k < i_indices[i]) {
-        ++min_j;
+    for (int i = 0, j = 0; i < a_indices.size() && j < b_indices.size(); ++i) {
+      while (j < b_indices.size() && b_indices[j] + k < a_indices[i]) {
+        ++j;
       }
-      max_j = max(max_j, min_j);
-      while (max_j < j_indices.size() && j_indices[max_j] <= i_indices[i] + k) {
-        ++max_j;
-      }
-      if (min_j < max_j) {
-        results.push_back(i_indices[i]);
+      if (j < b_indices.size() && b_indices[j] <= a_indices[i] + k) {
+        results.push_back(a_indices[i]);
       }
     }
     return results;
   }
 
  private:
-  vector<int> findIndices(const string &s, const string &p) const {
-    if (s.size() < p.size()) {
-      return {};
-    }
-    string concatenated;
-    concatenated.reserve(s.size() + 1 + p.size());
-    concatenated.assign(p.begin(), p.end());
-    concatenated.push_back(';');
-    concatenated.append(s);
-    vector<int> kmp(concatenated.size());
-    vector<int> results;
-    results.reserve(s.size() - p.size() + 1);
-    for (int i = 1; i < concatenated.size(); ++i) {
+  vector<int> getIndices(const string &s, const string &p) const {
+    vector<int> kmp(p.size());
+    for (int i = 1; i < p.size(); ++i) {
       int j = kmp[i - 1];
-      while (j > 0 && concatenated[j] != concatenated[i]) {
+      while (j > 0 && p[j] != p[i]) {
         j = kmp[j - 1];
       }
-      if (concatenated[j] == concatenated[i]) {
+      if (p[j] == p[i]) {
         ++j;
       }
       kmp[i] = j;
-      if (i > p.size() && kmp[i] == p.size()) {
-        results.push_back(i - 2 * p.size());
+    }
+    vector<int> results;
+    for (int i = 0, j = 0; i < s.size(); ++i) {
+      while (j > 0 && s[i] != p[j]) {
+        j = kmp[j - 1];
+      }
+      if (s[i] == p[j]) {
+        if (++j == p.size()) {
+          results.push_back(i - p.size() + 1);
+          j = kmp[j - 1];
+        }
       }
     }
     return results;
